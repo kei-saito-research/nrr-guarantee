@@ -18,8 +18,8 @@ For the cross-paper map and current series links, start here:
 
 ## Current manuscript snapshot
 
-- Current manuscript source: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
-- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
+- Current manuscript source: `manuscript/current/nrr-guarantee_manuscript_v56.tex`
+- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v56.pdf`
 - Current checksum manifest:
   `manuscript/current/checksums_active_review_surface_sha256.txt`
 
@@ -47,9 +47,9 @@ The reviewer-facing active review surface is defined by
 surface that the active review bundle ships and verifies.
 
 - Current manuscript snapshot:
-  - `manuscript/current/nrr-guarantee_manuscript_v55.tex`
+  - `manuscript/current/nrr-guarantee_manuscript_v56.tex`
 - Current manuscript PDF:
-  - `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
+  - `manuscript/current/nrr-guarantee_manuscript_v56.pdf`
 - Current figure assets:
   - `manuscript/current/fig1_supported_claim_progression_v1.png`
   - `manuscript/current/fig2_guarantee_centered_architecture_v1.png`
@@ -109,7 +109,7 @@ Current review-status read:
   - the historical `v8` shared-box package recorded in
     `results/analysis/guarantee_git_ready_closure_v2_2026-03-20.md`
 - active manuscript/package line:
-  - `v55` is the current latest manuscript line and active review target
+  - `v56` is the current latest manuscript line and active review target
   - `v46` is the upstream-sync derived review variant under the fixed
     `paper7 -> Energy -> Guarantee` spine; it preserves the side-topic result as
     supporting evidence, keeps later-horizon as a boundary-only surface under a
@@ -148,7 +148,7 @@ Current review-status read:
     the carried downstream-boundary authority memo as one later boundary inside
     the carried priority-resolution family, and while advancing the current
     guidance notes to the same active line
-  - `v55` preserves the `v46` claim surface and the `v54` package boundary
+  - `v56` preserves the `v46` claim surface and the `v55` package boundary
     while restoring the series-standard front matter, adding the shared AI
     acknowledgments block, making the manuscript-facing limitations explicit,
     and normalizing the bibliography away from internal manuscript-version
@@ -197,8 +197,8 @@ nrr-guarantee/
 |-- reproducibility.md
 |-- manuscript/
 |   `-- current/
-|       |-- nrr-guarantee_manuscript_v55.tex
-|       |-- nrr-guarantee_manuscript_v55.pdf
+|       |-- nrr-guarantee_manuscript_v56.tex
+|       |-- nrr-guarantee_manuscript_v56.pdf
 |       |-- fig1_supported_claim_progression_v1.png
 |       |-- fig2_guarantee_centered_architecture_v1.png
 |       `-- checksums_active_review_surface_sha256.txt

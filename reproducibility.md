@@ -17,7 +17,7 @@ At this stage the package is intentionally narrow:
   - `bash scripts/build_current_manuscript.sh`
   - default output: the highest-numbered tracked manuscript in
     `manuscript/current/`; at present this is
-    `/tmp/nrr-guarantee_current_build/nrr-guarantee_manuscript_v55.pdf`
+    `/tmp/nrr-guarantee_current_build/nrr-guarantee_manuscript_v56.pdf`
 - Verify the reviewer-facing active review surface:
   - `bash scripts/verify_active_review_surface.sh`
   - this checks
@@ -33,8 +33,8 @@ At this stage the package is intentionally narrow:
 
 ## Reviewer-facing active review surface
 
-- Current manuscript TeX: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
-- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
+- Current manuscript TeX: `manuscript/current/nrr-guarantee_manuscript_v56.tex`
+- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v56.pdf`
 - Current figure assets:
   - `manuscript/current/fig1_supported_claim_progression_v1.png`
   - `manuscript/current/fig2_guarantee_centered_architecture_v1.png`
@@ -175,9 +175,9 @@ Current drafting is constrained by the following already-fixed support layers:
 
 | Artifact | Command | Output |
 |---|---|---|
-| Current manuscript build | `bash scripts/build_current_manuscript.sh` | highest-numbered tracked manuscript PDF in `/tmp/nrr-guarantee_current_build/` (currently `nrr-guarantee_manuscript_v55.pdf`) |
+| Current manuscript build | `bash scripts/build_current_manuscript.sh` | highest-numbered tracked manuscript PDF in `/tmp/nrr-guarantee_current_build/` (currently `nrr-guarantee_manuscript_v56.pdf`) |
 | Current figure regeneration | `python3 scripts/generate_manuscript_figures.py` | `manuscript/current/fig1_supported_claim_progression_v1.png`, `manuscript/current/fig2_guarantee_centered_architecture_v1.png` |
-| Current manuscript source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v55.tex` |
+| Current manuscript source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v56.tex` |
 | Current supporting-layer source bundle | N/A (tracked artifact) | `supporting_layer_sources/current/` |
 | Imported reviewed downstream-acceptance surface | N/A (tracked artifact) | `results/reviewed_phase2_downstream_acceptance_readout_v8/` |
 
@@ -247,7 +247,7 @@ Current drafting is constrained by the following already-fixed support layers:
   downstream-boundary authority memo, so both now read the downstream-
   acceptance surface as the first accepted-direction boundary inside the
   carried priority-resolution family.
-- The formatting-normalization `v55` derived variant preserves that same claim
+- The formatting-normalization `v56` derived variant preserves that same claim
   surface and package boundary while restoring the series-standard front matter,
   adding the shared AI acknowledgments block, making the manuscript-facing
   limitations explicit, and normalizing the active derived bibliography away
