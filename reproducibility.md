@@ -33,10 +33,8 @@ At this stage the package is intentionally narrow:
 
 ## Reviewer-facing active review surface
 
-- Protected baseline TeX: `manuscript/current/nrr-guarantee_manuscript_v27.tex`
-- Protected baseline PDF: `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
-- Active derived review TeX: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
-- Active derived review PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
+- Current manuscript TeX: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
+- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
 - Current figure assets:
   - `manuscript/current/fig1_supported_claim_progression_v1.png`
   - `manuscript/current/fig2_guarantee_centered_architecture_v1.png`
@@ -99,17 +97,6 @@ review surface. It retains chronology and helper materials for local integrity
 checks, but those files are not part of the active review bundle documented
 here.
 
-## Derived review variant
-
-- Protected baseline remains:
-  - `manuscript/current/nrr-guarantee_manuscript_v27.tex`
-  - `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
-- Rewritten derived review variant:
-  - `manuscript/current/nrr-guarantee_manuscript_v55.tex`
-  - `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
-- This `v55` line is the latest active manuscript line and current review
-  target, while `v27` remains the protected package baseline
-
 ## Checksum policy
 
 - `manuscript/current/checksums_active_review_surface_sha256.txt` defines the
@@ -117,8 +104,8 @@ here.
 - `bash scripts/verify_active_review_surface.sh` verifies that active review
   surface, and `bash scripts/create_active_review_bundle.sh` packages the same
   surface into a reviewer-facing zip.
-- Active review coverage includes the protected baseline, the active derived
-  review variant, current committed figure assets, repo metadata
+- Active review coverage includes the current manuscript line, current
+  committed figure assets, repo metadata
   (`README.md`, `reproducibility.md`, `LICENSE`), the reviewer-facing verify
   and bundle entrypoints, the figure-generation helper in `scripts/`, the
   repo-local claim-evidence notes used by the active derived variant, the
@@ -190,8 +177,7 @@ Current drafting is constrained by the following already-fixed support layers:
 |---|---|---|
 | Current manuscript build | `bash scripts/build_current_manuscript.sh` | highest-numbered tracked manuscript PDF in `/tmp/nrr-guarantee_current_build/` (currently `nrr-guarantee_manuscript_v55.pdf`) |
 | Current figure regeneration | `python3 scripts/generate_manuscript_figures.py` | `manuscript/current/fig1_supported_claim_progression_v1.png`, `manuscript/current/fig2_guarantee_centered_architecture_v1.png` |
-| Protected baseline source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v27.tex` |
-| Active derived review source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v55.tex` |
+| Current manuscript source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v55.tex` |
 | Current supporting-layer source bundle | N/A (tracked artifact) | `supporting_layer_sources/current/` |
 | Imported reviewed downstream-acceptance surface | N/A (tracked artifact) | `results/reviewed_phase2_downstream_acceptance_readout_v8/` |
 
@@ -223,9 +209,6 @@ Current drafting is constrained by the following already-fixed support layers:
 - The last externally review-cleared narrow package is the historical `v8`
   shared-box artifact recorded in
   `results/analysis/guarantee_git_ready_closure_v2_2026-03-20.md`.
-- The protected baseline `v27` package preserves that review-oriented layout
-  and bundled trace surface, but it has not yet been externally re-cleared at
-  `v27`.
 - The rewritten `v46` derived variant reflects the fixed
   `paper7 -> Energy -> Guarantee` spine while keeping the side-topic result as
   supporting evidence and the later-horizon material as a boundary-only
@@ -250,8 +233,7 @@ Current drafting is constrained by the following already-fixed support layers:
   matches the shipped `v8` audit note.
 - The provenance-clarity `v51` derived variant preserves that same claim
   surface while aligning the carried `paper7` bibliography title to the bundled
-  `paper7 v0_29` authority copy and keeping the status read explicit that `v27`
-  is the protected baseline while `v51` is the active confirm-review line.
+  `paper7 v0_29` authority copy and clarifying the active confirm-review line.
 - The repo-surface-closure `v52` derived variant preserves that same claim
   surface while removing the unshipped working-drafting-outline item from the
   manuscript's repository-surface description so the prose matches the actual

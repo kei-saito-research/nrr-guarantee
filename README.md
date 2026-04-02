@@ -18,23 +18,10 @@ For the cross-paper map and current series links, start here:
 
 ## Current manuscript snapshot
 
-- Protected baseline source: `manuscript/current/nrr-guarantee_manuscript_v27.tex`
-- Protected baseline PDF: `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
-- Active derived review source: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
-- Active derived review PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
-- Active review checksum manifest:
+- Current manuscript source: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
+- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
+- Current checksum manifest:
   `manuscript/current/checksums_active_review_surface_sha256.txt`
-
-## Derived review variant
-
-- Protected baseline remains:
-  - `manuscript/current/nrr-guarantee_manuscript_v27.tex`
-  - `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
-- Current rewritten derived variant for review:
-  - `manuscript/current/nrr-guarantee_manuscript_v55.tex`
-  - `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
-- Read `v55` as the latest active manuscript line for current review, while
-  `v27` remains the protected baseline
 
 ## Reproducibility entry points
 
@@ -59,13 +46,9 @@ The reviewer-facing active review surface is defined by
 `manuscript/current/checksums_active_review_surface_sha256.txt` and is the
 surface that the active review bundle ships and verifies.
 
-- Protected baseline snapshot:
-  - `manuscript/current/nrr-guarantee_manuscript_v27.tex`
-- Active derived review snapshot:
+- Current manuscript snapshot:
   - `manuscript/current/nrr-guarantee_manuscript_v55.tex`
-- Protected baseline PDF:
-  - `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
-- Active derived review PDF:
+- Current manuscript PDF:
   - `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
 - Current figure assets:
   - `manuscript/current/fig1_supported_claim_progression_v1.png`
@@ -125,9 +108,6 @@ Current review-status read:
 - last externally review-cleared artifact:
   - the historical `v8` shared-box package recorded in
     `results/analysis/guarantee_git_ready_closure_v2_2026-03-20.md`
-- protected baseline status:
-  - `v27` is the preserved protected baseline and should not be read as already
-    externally re-cleared at `v27`
 - active manuscript/package line:
   - `v55` is the current latest manuscript line and active review target
   - `v46` is the upstream-sync derived review variant under the fixed
@@ -154,8 +134,7 @@ Current review-status read:
     current evidence map's behavior-first audit-note inventory
   - `v51` preserves the `v46` claim surface and the `v50` package boundary
     while aligning the carried `paper7` bibliography title to the bundled
-    upstream authority copy and making the README status read unambiguous about
-    `v27` as protected baseline versus `v51` as the active derived review line
+    upstream authority copy and clarifying the active review status read
   - `v52` preserves the `v46` claim surface and the `v51` package boundary
     while narrowing the manuscript's repository-surface description to the
     actual shipped active review surface by removing the unbundled working
@@ -173,7 +152,7 @@ Current review-status read:
     while restoring the series-standard front matter, adding the shared AI
     acknowledgments block, making the manuscript-facing limitations explicit,
     and normalizing the bibliography away from internal manuscript-version
-    filenames on the active derived review line
+    filenames on the current line
 
 ## Scope boundary
 
@@ -181,7 +160,7 @@ This repository currently exposes a bounded reviewer-facing `Guarantee`
 manuscript/package surface.
 
 It supports:
-- a protected baseline plus one active derived review line
+- one current reviewer-facing manuscript line
 - a fixed section structure that absorbs `Policy`, `Dynamics`, and
   `Policy-Verification` as supporting layers
 - an explicit split between fixed support-layer texts and repo-local
@@ -218,8 +197,6 @@ nrr-guarantee/
 |-- reproducibility.md
 |-- manuscript/
 |   `-- current/
-|       |-- nrr-guarantee_manuscript_v27.tex
-|       |-- nrr-guarantee_manuscript_v27.pdf
 |       |-- nrr-guarantee_manuscript_v55.tex
 |       |-- nrr-guarantee_manuscript_v55.pdf
 |       |-- fig1_supported_claim_progression_v1.png
