@@ -20,8 +20,8 @@ For the cross-paper map and current series links, start here:
 
 - Protected baseline source: `manuscript/current/nrr-guarantee_manuscript_v27.tex`
 - Protected baseline PDF: `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
-- Active derived review source: `manuscript/current/nrr-guarantee_manuscript_v54.tex`
-- Active derived review PDF: `manuscript/current/nrr-guarantee_manuscript_v54.pdf`
+- Active derived review source: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
+- Active derived review PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
 - Active review checksum manifest:
   `manuscript/current/checksums_active_review_surface_sha256.txt`
 
@@ -31,9 +31,10 @@ For the cross-paper map and current series links, start here:
   - `manuscript/current/nrr-guarantee_manuscript_v27.tex`
   - `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
 - Current rewritten derived variant for review:
-  - `manuscript/current/nrr-guarantee_manuscript_v54.tex`
-  - `manuscript/current/nrr-guarantee_manuscript_v54.pdf`
-- Read `v54` as a review-pending derived variant, not as the promoted baseline
+  - `manuscript/current/nrr-guarantee_manuscript_v55.tex`
+  - `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
+- Read `v55` as the latest active manuscript line for current review, while
+  `v27` remains the protected baseline
 
 ## Reproducibility entry points
 
@@ -61,11 +62,11 @@ surface that the active review bundle ships and verifies.
 - Protected baseline snapshot:
   - `manuscript/current/nrr-guarantee_manuscript_v27.tex`
 - Active derived review snapshot:
-  - `manuscript/current/nrr-guarantee_manuscript_v54.tex`
+  - `manuscript/current/nrr-guarantee_manuscript_v55.tex`
 - Protected baseline PDF:
   - `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
 - Active derived review PDF:
-  - `manuscript/current/nrr-guarantee_manuscript_v54.pdf`
+  - `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
 - Current figure assets:
   - `manuscript/current/fig1_supported_claim_progression_v1.png`
   - `manuscript/current/fig2_guarantee_centered_architecture_v1.png`
@@ -128,7 +129,7 @@ Current review-status read:
   - `v27` is the preserved protected baseline and should not be read as already
     externally re-cleared at `v27`
 - active manuscript/package line:
-  - `v54` is the current active derived review line for confirm review
+  - `v55` is the current latest manuscript line and active review target
   - `v46` is the upstream-sync derived review variant under the fixed
     `paper7 -> Energy -> Guarantee` spine; it preserves the side-topic result as
     supporting evidence, keeps later-horizon as a boundary-only surface under a
@@ -168,6 +169,11 @@ Current review-status read:
     the carried downstream-boundary authority memo as one later boundary inside
     the carried priority-resolution family, and while advancing the current
     guidance notes to the same active line
+  - `v55` preserves the `v46` claim surface and the `v54` package boundary
+    while restoring the series-standard front matter, adding the shared AI
+    acknowledgments block, making the manuscript-facing limitations explicit,
+    and normalizing the bibliography away from internal manuscript-version
+    filenames on the active derived review line
 
 ## Scope boundary
 
@@ -214,8 +220,8 @@ nrr-guarantee/
 |   `-- current/
 |       |-- nrr-guarantee_manuscript_v27.tex
 |       |-- nrr-guarantee_manuscript_v27.pdf
-|       |-- nrr-guarantee_manuscript_v54.tex
-|       |-- nrr-guarantee_manuscript_v54.pdf
+|       |-- nrr-guarantee_manuscript_v55.tex
+|       |-- nrr-guarantee_manuscript_v55.pdf
 |       |-- fig1_supported_claim_progression_v1.png
 |       |-- fig2_guarantee_centered_architecture_v1.png
 |       `-- checksums_active_review_surface_sha256.txt

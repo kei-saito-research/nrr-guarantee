@@ -17,7 +17,7 @@ At this stage the package is intentionally narrow:
   - `bash scripts/build_current_manuscript.sh`
   - default output: the highest-numbered tracked manuscript in
     `manuscript/current/`; at present this is
-    `/tmp/nrr-guarantee_current_build/nrr-guarantee_manuscript_v54.pdf`
+    `/tmp/nrr-guarantee_current_build/nrr-guarantee_manuscript_v55.pdf`
 - Verify the reviewer-facing active review surface:
   - `bash scripts/verify_active_review_surface.sh`
   - this checks
@@ -35,8 +35,8 @@ At this stage the package is intentionally narrow:
 
 - Protected baseline TeX: `manuscript/current/nrr-guarantee_manuscript_v27.tex`
 - Protected baseline PDF: `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
-- Active derived review TeX: `manuscript/current/nrr-guarantee_manuscript_v54.tex`
-- Active derived review PDF: `manuscript/current/nrr-guarantee_manuscript_v54.pdf`
+- Active derived review TeX: `manuscript/current/nrr-guarantee_manuscript_v55.tex`
+- Active derived review PDF: `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
 - Current figure assets:
   - `manuscript/current/fig1_supported_claim_progression_v1.png`
   - `manuscript/current/fig2_guarantee_centered_architecture_v1.png`
@@ -105,9 +105,10 @@ here.
   - `manuscript/current/nrr-guarantee_manuscript_v27.tex`
   - `manuscript/current/nrr-guarantee_manuscript_v27.pdf`
 - Rewritten derived review variant:
-  - `manuscript/current/nrr-guarantee_manuscript_v54.tex`
-  - `manuscript/current/nrr-guarantee_manuscript_v54.pdf`
-- This `v54` line is for confirm review only and is not yet the promoted package baseline
+  - `manuscript/current/nrr-guarantee_manuscript_v55.tex`
+  - `manuscript/current/nrr-guarantee_manuscript_v55.pdf`
+- This `v55` line is the latest active manuscript line and current review
+  target, while `v27` remains the protected package baseline
 
 ## Checksum policy
 
@@ -187,10 +188,10 @@ Current drafting is constrained by the following already-fixed support layers:
 
 | Artifact | Command | Output |
 |---|---|---|
-| Current manuscript build | `bash scripts/build_current_manuscript.sh` | highest-numbered tracked manuscript PDF in `/tmp/nrr-guarantee_current_build/` (currently `nrr-guarantee_manuscript_v54.pdf`) |
+| Current manuscript build | `bash scripts/build_current_manuscript.sh` | highest-numbered tracked manuscript PDF in `/tmp/nrr-guarantee_current_build/` (currently `nrr-guarantee_manuscript_v55.pdf`) |
 | Current figure regeneration | `python3 scripts/generate_manuscript_figures.py` | `manuscript/current/fig1_supported_claim_progression_v1.png`, `manuscript/current/fig2_guarantee_centered_architecture_v1.png` |
 | Protected baseline source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v27.tex` |
-| Active derived review source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v54.tex` |
+| Active derived review source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v55.tex` |
 | Current supporting-layer source bundle | N/A (tracked artifact) | `supporting_layer_sources/current/` |
 | Imported reviewed downstream-acceptance surface | N/A (tracked artifact) | `results/reviewed_phase2_downstream_acceptance_readout_v8/` |
 
@@ -264,3 +265,8 @@ Current drafting is constrained by the following already-fixed support layers:
   downstream-boundary authority memo, so both now read the downstream-
   acceptance surface as the first accepted-direction boundary inside the
   carried priority-resolution family.
+- The formatting-normalization `v55` derived variant preserves that same claim
+  surface and package boundary while restoring the series-standard front matter,
+  adding the shared AI acknowledgments block, making the manuscript-facing
+  limitations explicit, and normalizing the active derived bibliography away
+  from internal manuscript-version filenames.
