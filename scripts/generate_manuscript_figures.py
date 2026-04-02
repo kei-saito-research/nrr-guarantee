@@ -9,7 +9,7 @@ from matplotlib.patches import FancyArrowPatch, Rectangle
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_DIR = ROOT / "manuscript" / "current"
+OUT_DIR = ROOT / "manuscript" / "figures"
 
 
 GREEN = "#2D6A4F"

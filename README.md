@@ -18,10 +18,10 @@ For the cross-paper map and current series links, start here:
 
 ## Current manuscript snapshot
 
-- Current manuscript source: `manuscript/current/nrr-guarantee_manuscript_v56.tex`
-- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v56.pdf`
+- Current manuscript source: `manuscript/current/nrr-guarantee_manuscript_v57.tex`
+- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v57.pdf`
 - Current checksum manifest:
-  `manuscript/current/checksums_active_review_surface_sha256.txt`
+  `manuscript/checksums_active_review_surface_sha256.txt`
 
 ## Reproducibility entry points
 
@@ -43,16 +43,16 @@ Current local build rule:
 ## Current Guarantee package scope
 
 The reviewer-facing active review surface is defined by
-`manuscript/current/checksums_active_review_surface_sha256.txt` and is the
+`manuscript/checksums_active_review_surface_sha256.txt` and is the
 surface that the active review bundle ships and verifies.
 
 - Current manuscript snapshot:
-  - `manuscript/current/nrr-guarantee_manuscript_v56.tex`
+  - `manuscript/current/nrr-guarantee_manuscript_v57.tex`
 - Current manuscript PDF:
-  - `manuscript/current/nrr-guarantee_manuscript_v56.pdf`
+  - `manuscript/current/nrr-guarantee_manuscript_v57.pdf`
 - Current figure assets:
-  - `manuscript/current/fig1_supported_claim_progression_v1.png`
-  - `manuscript/current/fig2_guarantee_centered_architecture_v1.png`
+  - `manuscript/figures/fig1_supported_claim_progression_v1.png`
+  - `manuscript/figures/fig2_guarantee_centered_architecture_v1.png`
 - Figure-generation script:
   - `scripts/generate_manuscript_figures.py`
 - Current supporting-layer evidence import map:
@@ -109,7 +109,7 @@ Current review-status read:
   - the historical `v8` shared-box package recorded in
     `results/analysis/guarantee_git_ready_closure_v2_2026-03-20.md`
 - active manuscript/package line:
-  - `v56` is the current latest manuscript line and active review target
+  - `v57` is the current latest manuscript line and active review target
   - `v46` is the upstream-sync derived review variant under the fixed
     `paper7 -> Energy -> Guarantee` spine; it preserves the side-topic result as
     supporting evidence, keeps later-horizon as a boundary-only surface under a
@@ -148,7 +148,7 @@ Current review-status read:
     the carried downstream-boundary authority memo as one later boundary inside
     the carried priority-resolution family, and while advancing the current
     guidance notes to the same active line
-  - `v56` preserves the `v46` claim surface and the `v55` package boundary
+  - `v57` preserves the `v46` claim surface and the `v56` package boundary
     while restoring the series-standard front matter, adding the shared AI
     acknowledgments block, making the manuscript-facing limitations explicit,
     and normalizing the bibliography away from internal manuscript-version
@@ -196,12 +196,13 @@ nrr-guarantee/
 |-- LICENSE
 |-- reproducibility.md
 |-- manuscript/
-|   `-- current/
-|       |-- nrr-guarantee_manuscript_v56.tex
-|       |-- nrr-guarantee_manuscript_v56.pdf
-|       |-- fig1_supported_claim_progression_v1.png
-|       |-- fig2_guarantee_centered_architecture_v1.png
-|       `-- checksums_active_review_surface_sha256.txt
+|   |-- current/
+|   |   |-- nrr-guarantee_manuscript_v57.tex
+|   |   `-- nrr-guarantee_manuscript_v57.pdf
+|   |-- figures/
+|   |   |-- fig1_supported_claim_progression_v1.png
+|   |   `-- fig2_guarantee_centered_architecture_v1.png
+|   `-- checksums_active_review_surface_sha256.txt
 |-- results/
 |   `-- analysis/
 |       |-- guarantee_supporting_layer_evidence_map_v19_2026-04-02.md
