@@ -1,0 +1,7 @@
+provider,arm,comparative_evaluation_present_num,comparative_evaluation_present_den,explicit_branch_count_ge2_num,explicit_branch_count_ge2_den,ablation_non_compliance_num,baseline_or_nrr_contamination_num
+anthropic,baseline,0,144,0,144,0,0
+anthropic,nrr,0,144,0,144,0,0
+anthropic,ablation,144,144,144,144,0,0
+gemini,baseline,0,144,0,144,0,0
+gemini,nrr,0,144,0,144,0,0
+gemini,ablation,144,144,144,144,0,0

@@ -1,0 +1,188 @@
+\documentclass[11pt]{article}
+
+\title{NRR-Guarantee: Bounded Commit/Defer Guarantees Under Explicit Conditions}
+\author{Kei Saito}
+\date{March 20, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This manuscript initializes the current \texttt{Guarantee}-line paper surface for
+the Non-Resolution Reasoning (NRR) program. The current version fixes the section
+structure, package boundary, and evidence-import surface required to close the next
+downstream paper under explicit provider, family, horizon, and observability
+conditions. This scaffold is not yet a final guarantee claim. Its role is to make
+the later bounded claim reviewable, reproducible, and resistant to scope drift.
+\end{abstract}
+
+\section{Introduction}
+
+NRR is not an anti-LLM framework. NRR does not replace standard LLM use. NRR
+optimizes when to commit and when to defer, under explicit conditions.
+
+The current downstream architecture is \textit{Guarantee-centered}: \texttt{Policy},
+\texttt{Dynamics}, and \texttt{Policy-Verification} are supporting layers for the
+\texttt{Guarantee} line rather than independent completion targets. Accordingly, the
+purpose of this manuscript is to close a bounded downstream paper that absorbs those
+layers as constrained inputs.
+
+The present version is intentionally narrow. It fixes the manuscript surface that
+will later host the bounded claim, but it does not yet promote any unverified
+provider-universal, family-universal, or long-horizon statement.
+
+\paragraph{Series Consistency Statement:}
+Unsupported interpretations are never injected at a fixed evidence state,
+hypothesis-set expansion is evidence-gated, and unobserved possibilities remain
+explicitly unresolved. In this paper, the evidence-source clause is restricted to
+the frozen downstream support layers and the directly imported observability
+surfaces named for the current \texttt{Guarantee} package.
+
+\paragraph{Series Extensibility Statement:}
+NRR is a derivation-and-evaluation framework, not a closed recipe. The currently
+evaluated policy/operator set is treated as an evaluated set under tested
+conditions, not as an exhaustive set.
+
+\section{Program Position And Scope}
+
+This paper sits at the end of the current downstream sequence:
+
+\begin{center}
+\texttt{Energy -> Policy -> Dynamics + Policy-Verification -> Guarantee}
+\end{center}
+
+\noindent The role split is fixed as follows.
+
+\begin{itemize}
+\item \texttt{Energy}: measurement and bounded upstream handoff.
+\item \texttt{Policy}: minimal state/action specification.
+\item \texttt{Dynamics}: hold/degrade/break vocabulary across later checkpoints.
+\item \texttt{Policy-Verification}: prospective matched-condition validation.
+\item \texttt{Guarantee}: bounded claim under explicit conditions.
+\end{itemize}
+
+This manuscript must therefore do two things at once:
+\begin{enumerate}
+\item absorb the already fixed supporting layers without reopening their ownership
+boundaries, and
+\item state only those guarantee-shaped claims that remain supported after explicit
+provider, family, horizon, observability, and failure-boundary restriction.
+\end{enumerate}
+
+\section{Supporting-Layer Inputs}
+
+\subsection{Policy Input}
+
+The current policy layer freezes the downstream state vocabulary
+(\texttt{active\_objective}, \texttt{suspended\_objective},
+\texttt{accepted\_direction}, \texttt{unresolved\_relation},
+\texttt{quarantine}, \texttt{local\_relation\_block}) and the minimal action set
+used to govern commit/defer behavior. The \texttt{Guarantee} line inherits this
+vocabulary and must not redesign it locally.
+
+\subsection{Dynamics Input}
+
+The current dynamics layer contributes mechanism vocabulary only. In particular, it
+provides the motifs \textit{Stable Resolution}, \textit{Clean Quarantine Hold},
+\textit{Useful Continuation Hold}, \textit{Relation-Preservation Hold},
+\textit{Premature Relation Collapse}, \textit{Repeated-Starter Attractor},
+\textit{Generic Stall}, and \textit{Quarantine Leak}. These motifs describe where
+policy-frozen behavior holds or breaks across later checkpoints, but they do not
+yet constitute guarantee language.
+
+\subsection{Policy-Verification Input}
+
+The current policy-verification layer fixes the protocol rules that any prospective
+\texttt{baseline vs Energy policy} comparison must satisfy before guarantee text is
+allowed. This includes matched-condition comparison, pre-frozen claim units, narrow
+family selection, explicit horizon bands, and main-text reporting of both gains and
+failure boundaries.
+
+\section{Claim Unit And Boundary Discipline}
+
+Any later guarantee statement in this paper must fill a single bounded claim unit
+with the following fields:
+
+\begin{enumerate}
+\item provider scope
+\item family scope
+\item horizon scope
+\item observability scope
+\item comparison scope
+\item supported behavior
+\item explicit failure boundary
+\item unsupported extension
+\end{enumerate}
+
+No guarantee statement is valid if any field is omitted. This paper therefore
+inherits the current schema rule that the claim surface must be chosen before
+outcome inspection and must remain narrow enough to prevent provider-universal,
+family-universal, or long-horizon overreach.
+
+\section{Evidence Import Surface}
+
+The current evidence imports to be promoted into manuscript-facing text are:
+
+\begin{itemize}
+\item Program design:
+  \texttt{energy\_to\_guarantee\_program\_design\_brief\_v1\_2026-03-17.md}
+\item Policy:
+  \texttt{policy\_minimal\_spec\_current\_v1\_2026-03-18.md}
+\item Dynamics:
+  \texttt{energy\_dynamics\_mechanism\_skeleton\_candidate\_v2\_2026-03-17.md}
+  and
+  \texttt{non\_evaluative\_principle\_dynamics\_closure\_note\_v1\_2026-03-19.md}
+\item Policy-Verification:
+  \texttt{policy\_verification\_pilot\_protocol\_current\_v1\_2026-03-18.md}
+\item Guarantee schema:
+  \texttt{energy\_guarantee\_claim\_schema\_candidate\_v2\_2026-03-17.md}
+\end{itemize}
+
+The current manuscript-facing task is not to widen these inputs, but to integrate
+them into one paper whose claim boundary remains explicit and whose package
+boundary can be externally reviewed.
+
+\section{Reproducibility And Package Boundary}
+
+The repository surface for the current line is intentionally minimal:
+\begin{itemize}
+\item a current TeX source
+\item a current PDF snapshot
+\item a working drafting outline
+\item a supporting-layer evidence map
+\item stable build and verification wrappers
+\end{itemize}
+
+This package is sufficient for writing and review-surface stabilization. It is not
+yet sufficient for final external closure because the final bounded claim text,
+explicit evidence imports, and external review artifacts still remain to be
+completed.
+
+\section{Discussion}
+
+The non-evaluative principle should enter this line as bounded engineering
+discipline rather than theorem inflation. In the current read, the practical issue
+is not simply whether unresolved content exists, but whether later interaction
+forces premature relation collapse or unnecessary comparative evaluation pressure
+while the interaction is still in a retained state. The \texttt{Guarantee} paper is
+the correct place to express that read as a bounded downstream claim surface.
+
+\section{Current Completion Checklist}
+
+The remaining manuscript/package tasks are:
+\begin{enumerate}
+\item fill the actual bounded claim unit from frozen supporting evidence
+\item import manuscript-facing evidence text from the current support memos
+\item add explicit gains, regressions, and failure-boundary reporting
+\item pass independent Codex and Claude external review
+\item close the git-ready package surface
+\end{enumerate}
+
+\section{Conclusion}
+
+The current version establishes the initial reviewable package surface for
+\texttt{Guarantee}. It fixes the section structure, inherits the current supporting
+layer boundaries, and reserves the final bounded guarantee claim for explicit
+evidence-grounded completion in later revisions.
+
+\end{document}

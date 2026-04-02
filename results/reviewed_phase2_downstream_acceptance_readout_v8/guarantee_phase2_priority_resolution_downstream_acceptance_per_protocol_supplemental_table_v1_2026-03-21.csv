@@ -1,0 +1,7 @@
+provider,arm,per_protocol_den,accepted_branch_followthrough_present_num,reopened_choice_absent_num,appropriate_num
+anthropic,baseline,144,144,144,142
+anthropic,nrr,144,59,109,55
+anthropic,ablation,144,38,50,38
+gemini,baseline,144,105,144,72
+gemini,nrr,144,107,144,93
+gemini,ablation,144,60,144,36

@@ -1,0 +1,31 @@
+{
+  "run_label": "guarantee_rewritten_nrr_small_test_post_acceptance_probe_v1",
+  "screening_label": "behavior_first_provider_local_gemini_implementation_rerun_v2",
+  "generated_at_utc": "2026-03-23T21:15:09Z",
+  "input_csv": "results/analysis/guarantee_behavior_first_provider_local_run_input_gemini_implementation_candidate_v2_2026-03-24.csv",
+  "n_rows": 5,
+  "system_prompt_source": "configs/priority_resolution/priority_resolution_nrr_rewritten_arm_system_prompt_candidate_p7_relation_compare_hybrid_v1.txt",
+  "system_prompt_sha256": "7d5c59cc4a04a06a5fc2dce8e24dc7fab4e6649b249663c84c40c9eb46584468",
+  "templates": [
+    "STD_D1_briefing_axis",
+    "STD_D2_planning_relation",
+    "STD_D3_venue_move",
+    "STD_D4_bike_detail",
+    "STD_D5_lesson_useful_move"
+  ],
+  "acceptance_variants": [
+    "accept_main_first",
+    "accept_side_first"
+  ],
+  "providers": [
+    "gemini"
+  ],
+  "models": [
+    "gemini-2.0-flash"
+  ],
+  "temperatures": [
+    "0.0"
+  ],
+  "response_csv": "results/guarantee_behavior_first_provider_local_20260323T211444Z_gemini_implementation/guarantee_rewritten_nrr_small_test_responses_v1.csv",
+  "raw_jsonl": "results/guarantee_behavior_first_provider_local_20260323T211444Z_gemini_implementation/guarantee_rewritten_nrr_small_test_raw_v1.jsonl"
+}

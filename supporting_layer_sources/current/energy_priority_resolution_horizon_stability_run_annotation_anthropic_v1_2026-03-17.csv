@@ -1,0 +1,37 @@
+run_item_id,template_id,rep_id,checkpoint_id,chosen_side_direction_progress_present,user_detail_use_present,unresolved_relation_preserved_or_narrowly_checked,suspended_main_reference_absent,starter_question_repeat_absent,appropriate,notes_optional
+PRHS_A_r01,A_trip_planning,1,turn7,1,1,1,1,1,1,Uses the seafood/ramen detail and asks restaurant-specific narrowing questions without collapsing the relation.
+PRHS_A_r01,A_trip_planning,1,turn9,1,1,1,1,1,1,Uses the station and not-fish-ramen detail while keeping seafood and ramen as separate targets and asking for location.
+PRHS_A_r01,A_trip_planning,1,turn11,1,1,0,1,1,0,Turns the user's conditional split option into the active interpretation instead of preserving or narrowly checking it.
+PRHS_A_r02,A_trip_planning,2,turn7,1,1,1,1,1,1,Uses the seafood/ramen detail and asks restaurant-specific narrowing questions without collapsing the relation.
+PRHS_A_r02,A_trip_planning,2,turn9,1,1,1,1,1,1,Uses the station and not-fish-ramen detail while keeping seafood and ramen as separate targets and asking for location.
+PRHS_A_r02,A_trip_planning,2,turn11,1,1,0,1,1,0,Turns the user's conditional split option into the active interpretation instead of preserving or narrowly checking it.
+PRHS_A_r03,A_trip_planning,3,turn7,1,1,1,1,1,1,Uses the seafood/ramen detail and asks restaurant-specific narrowing questions without collapsing the relation.
+PRHS_A_r03,A_trip_planning,3,turn9,1,1,1,1,1,1,Uses the station and not-fish-ramen detail while keeping seafood and ramen as separate targets and asking for location.
+PRHS_A_r03,A_trip_planning,3,turn11,1,1,0,1,1,0,Turns the user's conditional split option into the active interpretation instead of preserving or narrowly checking it.
+PRHS_A_r04,A_trip_planning,4,turn7,1,1,1,1,1,1,Uses the seafood/ramen detail and asks restaurant-specific narrowing questions without collapsing the relation.
+PRHS_A_r04,A_trip_planning,4,turn9,1,1,1,1,1,1,Uses the station and not-fish-ramen detail while keeping seafood and ramen as separate targets and asking for location.
+PRHS_A_r04,A_trip_planning,4,turn11,1,1,0,1,1,0,Turns the user's conditional split option into the active interpretation instead of preserving or narrowly checking it.
+PRHS_B_r01,B_hiring_packet,1,turn7,1,1,1,1,1,1,Uses the tools/norms/checklist detail and keeps onboarding training active with concrete structure.
+PRHS_B_r01,B_hiring_packet,1,turn9,1,1,0,1,1,0,Commits to team norms first instead of preserving or narrowly checking the unresolved tools-versus-norms ordering.
+PRHS_B_r01,B_hiring_packet,1,turn11,1,1,0,1,1,0,Builds the structure around the unsupported team-norms-first commitment while using the checklist-separation detail.
+PRHS_B_r02,B_hiring_packet,2,turn7,1,1,1,1,1,1,Uses the tools/norms/checklist detail and keeps onboarding training active with concrete structure.
+PRHS_B_r02,B_hiring_packet,2,turn9,1,1,0,1,1,0,Commits to team norms first instead of preserving or narrowly checking the unresolved tools-versus-norms ordering.
+PRHS_B_r02,B_hiring_packet,2,turn11,1,1,0,1,1,0,Builds the structure around the unsupported team-norms-first commitment while using the checklist-separation detail.
+PRHS_B_r03,B_hiring_packet,3,turn7,1,1,1,1,1,1,Uses the tools/norms/checklist detail and keeps onboarding training active with concrete structure.
+PRHS_B_r03,B_hiring_packet,3,turn9,1,1,0,1,1,0,Commits to team norms first instead of preserving or narrowly checking the unresolved tools-versus-norms ordering.
+PRHS_B_r03,B_hiring_packet,3,turn11,1,1,0,1,1,0,Builds the structure around the unsupported team-norms-first commitment while using the checklist-separation detail.
+PRHS_B_r04,B_hiring_packet,4,turn7,1,1,1,1,1,1,Uses the tools/norms/checklist detail and keeps onboarding training active with concrete structure.
+PRHS_B_r04,B_hiring_packet,4,turn9,1,1,0,1,1,0,Commits to team norms first instead of preserving or narrowly checking the unresolved tools-versus-norms ordering.
+PRHS_B_r04,B_hiring_packet,4,turn11,1,1,0,1,1,0,Builds the structure around the unsupported team-norms-first commitment while using the checklist-separation detail.
+PRHS_C_r01,C_incident_response,1,turn7,1,1,1,1,1,1,Expands the postmortem side topic using the user-supplied sections without reviving the suspended main objective.
+PRHS_C_r01,C_incident_response,1,turn9,1,1,0,1,1,0,Commits to impact before root cause without support instead of preserving or narrowly checking the unresolved ordering.
+PRHS_C_r01,C_incident_response,1,turn11,1,1,0,1,1,0,Builds on the unsupported impact-before-root-cause commitment while using the follow-up-actions separation and owners detail.
+PRHS_C_r02,C_incident_response,2,turn7,1,1,1,1,1,1,Expands the postmortem side topic using the user-supplied sections without reviving the suspended main objective.
+PRHS_C_r02,C_incident_response,2,turn9,1,1,0,1,1,0,Commits to impact before root cause without support instead of preserving or narrowly checking the unresolved ordering.
+PRHS_C_r02,C_incident_response,2,turn11,1,1,0,1,1,0,Builds on the unsupported impact-before-root-cause commitment while using the follow-up-actions separation and owners detail.
+PRHS_C_r03,C_incident_response,3,turn7,1,1,1,1,1,1,Expands the postmortem side topic using the user-supplied sections without reviving the suspended main objective.
+PRHS_C_r03,C_incident_response,3,turn9,1,1,0,1,1,0,Commits to impact before root cause without support instead of preserving or narrowly checking the unresolved ordering.
+PRHS_C_r03,C_incident_response,3,turn11,1,1,0,1,1,0,Builds on the unsupported impact-before-root-cause commitment while using the follow-up-actions separation and owners detail.
+PRHS_C_r04,C_incident_response,4,turn7,1,1,1,1,1,1,Expands the postmortem side topic using the user-supplied sections without reviving the suspended main objective.
+PRHS_C_r04,C_incident_response,4,turn9,1,1,0,1,1,0,Commits to impact before root cause without support instead of preserving or narrowly checking the unresolved ordering.
+PRHS_C_r04,C_incident_response,4,turn11,1,1,0,1,1,0,Builds on the unsupported impact-before-root-cause commitment while using the follow-up-actions separation and owners detail.

@@ -1,0 +1,1324 @@
+run_item_id,template_id,rep_id,provider,model,temperature,arm_label,step2_action_class,accepted_branch_alignment_class,acceptance_variant_id,accepted_branch_label,main_direction_label,side_direction_label,initial_ambiguous_user_turn,canned_step2_assistant_turn,downstream_acceptance_user_turn,assistant_decisive_turn_response,output_tokens,system_prompt_sha256,ran_at_utc
+GPH2_anthropic_baseline_A_main_r01,A_trip_planning,1,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, activities, food, etc.).
+
+2. **Draft a rough itinerary** – Outline your travel dates, key destinations, and how many days you'll spend in each place, so you can align the schedule with your budget.
+
+Once these are done, we can move on to restaurants!",110,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r02,A_trip_planning,2,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Outline your itinerary dates** – Lock in your travel dates and map out a day-by-day schedule, including key destinations, travel time between them, and must-do activities.
+
+Once these are done, we can move on to restaurants!",112,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r03,A_trip_planning,3,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're willing to spend, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and how many days you'll spend in each place to give your trip a clear structure.
+
+Once these are done, we can move on to restaurants!",101,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r04,A_trip_planning,4,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r05,A_trip_planning,5,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Outline your itinerary dates** – Lock in your travel dates and map out a day-by-day schedule, including key destinations, travel time between them, and any must-do activities.
+
+Once these are done, we can move on to restaurants!",113,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r06,A_trip_planning,6,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r07,A_trip_planning,7,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Draft a day-by-day schedule** – Outline your travel dates, key destinations, and how long you'll spend at each place, so you can align the schedule with your budget.
+
+Once these are done, we can move on to restaurants!",111,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r08,A_trip_planning,8,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're willing to spend, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and how many days you'll spend in each place to give your trip a clear structure.
+
+Once these are done, we can move on to restaurants!",101,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r09,A_trip_planning,9,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r10,A_trip_planning,10,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Outline your schedule** – Pick your travel dates, decide how many days you'll spend at each destination, and map out a rough day-by-day itinerary.
+
+Once you have these in place, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r11,A_trip_planning,11,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Outline your itinerary dates** – Lock in your travel dates and map out a day-by-day schedule, including key destinations, travel time between them, and any must-do activities.
+
+Once these are done, we can move on to restaurants!",113,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r12,A_trip_planning,12,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Outline your itinerary dates** – Lock in your travel dates and map out a day-by-day schedule, including key destinations, travel time between them, and any must-do activities.
+
+Once these are done, we can move on to restaurants!",113,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r13,A_trip_planning,13,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, activities, food, etc.).
+
+2. **Outline your itinerary dates** – Lock in your travel dates and map out a day-by-day schedule, including key destinations, travel time between them, and any must-do activities.
+
+Once these are done, we can move on to restaurants!",113,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r14,A_trip_planning,14,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're willing to spend, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Build your schedule** – Outline your travel dates, key destinations, and a rough day-by-day itinerary to make sure everything fits within your timeframe.
+
+Once these are done, we can move on to restaurants!",103,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r15,A_trip_planning,15,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Outline your schedule** – Pick your travel dates, decide how many days you'll spend at each destination, and map out a rough day-by-day itinerary.
+
+Once these are done, we can move on to restaurants!",103,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r16,A_trip_planning,16,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r17,A_trip_planning,17,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Outline your schedule** – Choose your travel dates, how many days you'll be away, and map out a rough day-by-day itinerary including key destinations and activities.
+
+Once these are done, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r18,A_trip_planning,18,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r19,A_trip_planning,19,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",105,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r20,A_trip_planning,20,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps for budget and schedule:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Outline your itinerary dates** – Lock in your travel dates and map out a day-by-day schedule, including key destinations, travel time between them, and any must-do activities.
+
+Once these are done, we can move on to restaurants!",113,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r21,A_trip_planning,21,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Outline your schedule** – Choose your travel dates, how many days you'll be away, and map out a rough day-by-day itinerary including key destinations and activities.
+
+Once you have these in place, we can move on to restaurants!",107,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r22,A_trip_planning,22,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your overall budget** – Decide on a total amount you're comfortable spending, then break it down into categories like transportation, accommodation, food, and activities.
+
+2. **Outline your schedule** – Pick your travel dates, decide how many days you'll spend at each destination, and map out a rough day-by-day itinerary.
+
+Once these are done, we can move on to restaurants!",103,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r23,A_trip_planning,23,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",106,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_A_main_r24,A_trip_planning,24,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,budget and schedule,restaurants,"Help me prepare the trip plan. The key things are budget and schedule, but I am also thinking about restaurants. Before we go further, we should decide which to handle first.",We can either stay with budget and schedule first or switch to restaurants first. Which would you like to do now?,Let's stay with budget and schedule first. Please give me the next two concrete trip-planning steps.,"Sure! Here are the next two concrete steps:
+
+1. **Set your total budget** – Decide on an overall spending limit for the trip, then break it down into categories (transportation, accommodation, food, activities, etc.).
+
+2. **Draft a rough schedule** – Outline your travel dates, key destinations, and a day-by-day itinerary so you can estimate how long you'll spend in each place.
+
+Once these are done, we can move on to restaurants!",106,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r01,B_hiring_packet,1,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r02,B_hiring_packet,2,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding schedule outlining the first week's activities.** This should include orientation sessions, introductions to key team members, system access setup, and any role-specific training. Having this mapped out first gives you a clear framework to build everything else around.
+
+Ready for the next step, or want to adjust this one?",88,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r03,B_hiring_packet,3,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r04,B_hiring_packet,4,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics the new hire needs to cover in their first week (e.g., company policies, tools/systems access, role-specific training, team introductions).
+
+Ready for the next step, or want to dig into this one further?",80,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r05,B_hiring_packet,5,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics the new hire needs to cover in their first week (e.g., company policies, tools/systems access, role-specific training, team introductions).
+
+Ready to move to the next step, or want to work through this one more?",82,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r06,B_hiring_packet,6,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r07,B_hiring_packet,7,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an outline of the core topics new hires need to cover in their first week** — things like company policies, role-specific tools, team introductions, and key processes.
+
+Ready to move to the next step, or want to dig into this one further?",74,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r08,B_hiring_packet,8,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics the new hire needs to cover in their first week (e.g., company policies, tools/systems access, role-specific training, team introductions).
+
+Ready to move to the next step, or want to work through this one further?",82,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r09,B_hiring_packet,9,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r10,B_hiring_packet,10,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r11,B_hiring_packet,11,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r12,B_hiring_packet,12,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics new hires need to cover in their first week (e.g., company policies, role-specific tools, team introductions, compliance requirements).
+
+Ready to build that out, or move to the next step?",76,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r13,B_hiring_packet,13,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r14,B_hiring_packet,14,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics the new hire needs to cover in their first week (e.g., company policies, tools/systems access, role-specific training, team introductions).
+
+Ready for the next step, or want to dig into this one further?",80,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r15,B_hiring_packet,15,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r16,B_hiring_packet,16,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics the new hire needs to cover in their first week (e.g., company policies, tools/systems access, role-specific training, team introductions).
+
+Ready to move to the next step, or want to dig into this one further?",82,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r17,B_hiring_packet,17,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r18,B_hiring_packet,18,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics the new hire needs to cover in their first week (e.g., company policies, tools/systems access, role-specific training, team introductions).
+
+Ready for the next step, or want to dig into this one further?",80,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r19,B_hiring_packet,19,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics new hires need to cover in their first week (e.g., company policies, role-specific tools, team introductions, compliance requirements).
+
+Ready for the next step, or want to dig into this one further?",78,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r20,B_hiring_packet,20,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r21,B_hiring_packet,21,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! The first concrete step for onboarding training is:
+
+**Draft a list of the core topics new hires need to cover in their first week** — things like company policies, tools/systems access, role-specific processes, and key team introductions.
+
+Want to work through that list together?",67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r22,B_hiring_packet,22,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an outline of the core topics new hires need to cover in their first week** — things like company policies, role-specific tools, team introductions, and key processes.
+
+Ready to move to the next step, or want to dig into this one further?",74,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r23,B_hiring_packet,23,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding schedule** — outline the first week day by day, including who the new hire will meet, what systems they'll get access to, and any required training sessions or orientations.
+
+Ready to move to the next step, or want to dig into this one further?",78,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_B_side_r24,B_hiring_packet,24,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_side_first,side_topic,required documents and the deadline,onboarding training,"Help me prepare the hiring packet. The key things are the required documents and the deadline, but I also want to think about onboarding training. Before we continue, we should decide which to handle first.",We can either stay with required documents and the deadline first or switch to onboarding training first. Which would you like to do now?,Let's switch to onboarding training first. Please give me the first concrete step for that.,"Sure! Here's your first concrete step for onboarding training:
+
+**Draft an onboarding training outline** — list the key topics the new hire needs to cover in their first week (e.g., company policies, tools/systems access, role-specific training, team introductions).
+
+Ready for the next step, or want to dig into this one further?",80,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r01,C_incident_response,1,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r02,C_incident_response,2,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|---|---|---|---|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Team queue | Next business day |
+
+**Your action:** Fill in the actual names, roles, and time targets that fit your organization, then we can move on to escalation paths and notification channels.",172,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r03,C_incident_response,3,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r04,C_incident_response,4,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|---|---|---|---|
+| P1 | Full outage / data loss | On-call engineer | 15 min |
+| P2 | Major degradation | Team lead | 30 min |
+| P3 | Minor degradation | Dev team | 4 hours |
+| P4 | Low impact / cosmetic | Ticket queue | Next business day |
+
+Fill in your actual contacts and adjust the timing to match your team's capacity. Once that's done we can move on to escalation paths (who gets looped in if the first contact doesn't respond).",177,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r05,C_incident_response,5,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map each one to:
+
+- **Who gets contacted** (name, role, and contact method)
+- **How quickly they must be notified** (e.g., P1 = 15 minutes, P2 = 1 hour)
+
+Start there — once you have those mappings, the rest of the escalation chain and response timing will fall into place naturally. Do you already have severity levels defined, or do we need to build those from scratch?",119,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r06,C_incident_response,6,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Example Criteria | First Contact | Response Time |
+|---|---|---|---|
+| P1 | Full outage, data loss | On-call engineer | 15 min |
+| P2 | Major feature broken | Team lead | 30 min |
+| P3 | Partial degradation | Dev team | 4 hours |
+| P4 | Minor issue | Ticket queue | Next business day |
+
+Fill in your actual contacts and adjust the thresholds to match your environment. Once you have that draft, we can move on to escalation paths (who gets looped in if the first contact doesn't respond).",179,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r07,C_incident_response,7,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets that fit your organization. Once you have that matrix locked down, we can move on to notification channels and escalation paths (e.g., what happens if P1 goes unacknowledged after 15 minutes).",206,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r08,C_incident_response,8,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific on-call contact and maximum response time to each one. That gives you the backbone everything else hangs on.",45,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r09,C_incident_response,9,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r10,C_incident_response,10,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r11,C_incident_response,11,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r12,C_incident_response,12,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Degraded performance | Team queue | 4 hours |
+| P4 | Minor / cosmetic issue | Team queue | Next business day |
+
+**Your action:** Fill in the actual names, roles, and time targets that fit your organization. Once you have that draft, we can move on to defining the notification chain (who gets looped in if the first contact doesn't respond, and at what interval).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r13,C_incident_response,13,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r14,C_incident_response,14,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r15,C_incident_response,15,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Team queue | Next business day |
+
+**Your action:** Fill in the actual names, roles, and time targets that fit your organization. Once that's done we can move on to notification channels and escalation paths (e.g., what happens if the first contact doesn't respond).",193,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r16,C_incident_response,16,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Team queue | Next business day |
+
+**Your action:** Fill in the actual names, roles, and time targets that fit your organization. Once that's done we can move on to the escalation path (who gets looped in if the first contact doesn't respond, and after how long).",195,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r17,C_incident_response,17,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map each one to:
+
+- **Who gets contacted** (specific names/roles, not just ""the team"")
+- **How they're reached** (phone, Slack, PagerDuty, etc.)
+- **Within what timeframe** (e.g., P1 = notify on-call engineer within 5 minutes)
+
+Start there — once severity levels are locked in, the escalation contacts and response timing naturally fall into place around them.",118,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r18,C_incident_response,18,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to notification channels and escalation paths (e.g., what happens if the first contact doesn't respond within the window).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r19,C_incident_response,19,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Team queue | Next business day |
+
+**Your action:** Fill in the actual names, roles, and time targets that fit your organization. Once that's done we can move on to the escalation path (who gets looped in if the first contact doesn't respond, and after how long).",195,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r20,C_incident_response,20,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map each one to:
+
+- **Who gets contacted** (specific names/roles, not just ""the team"")
+- **How they're reached** (phone, Slack, PagerDuty, etc.)
+- **Within what timeframe** (e.g., P1 = notify on-call engineer within 5 minutes)
+
+Start there — once severity levels are locked, the escalation contacts and response timing naturally fall into place around them.",117,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r21,C_incident_response,21,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map each one to:
+
+- **Who gets contacted** (name, role, and contact method)
+- **When they get contacted** (e.g., P1 = immediately, P2 = within 15 minutes)
+
+Start there — once you have those mappings, the rest of the escalation chain and timing targets will follow naturally. Do you have severity levels already defined, or do we need to build those from scratch?",112,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r22,C_incident_response,22,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team Slack channel | 2 hours |
+| P4 | Minor / cosmetic issue | Ticket queue | Next business day |
+
+**Your action:** Fill in your actual contacts and adjust the thresholds to match your team's capacity. Once that's done, we can move on to defining the escalation path (what happens if the first contact doesn't respond).",195,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r23,C_incident_response,23,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map each one to:
+
+- **Who gets contacted** (specific names/roles, not just ""the team"")
+- **How they're reached** (phone, Slack, PagerDuty, etc.)
+- **Within what timeframe** (e.g., P1 = notify on-call engineer within 5 minutes)
+
+Start by drafting those severity tiers — do you have existing ones, or do you need to build them from scratch?",119,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_C_main_r24,C_incident_response,24,anthropic,claude-sonnet-4-6,0.0,baseline,explicit_choice_question,user_selected_after_choice_question,accept_main_first,main_objective,escalation contacts and response timing,postmortem format,"Help me prepare the incident-response plan. The key things are escalation contacts and response timing, but I am also thinking about the postmortem format. Before we continue, we should decide which to handle first.",We can either stay with escalation contacts and response timing first or switch to postmortem format first. Which would you like to do now?,Let's stay with escalation contacts and response timing first. Please give me the next concrete response-planning step.,"Define your severity levels (e.g., P1–P4) and map a specific escalation contact and response time target to each one. For example:
+
+| Severity | Description | First Contact | Response Time |
+|----------|-------------|---------------|---------------|
+| P1 | Full outage / data loss | On-call engineer → Engineering lead | 15 min |
+| P2 | Major feature broken | On-call engineer | 30 min |
+| P3 | Partial degradation | Team queue | 4 hours |
+| P4 | Minor / cosmetic | Ticket backlog | Next sprint |
+
+**Your action:** Fill in the actual names, roles, and time targets for your organization. Once you have that draft, we can move on to defining the escalation path (who gets looped in if the first contact doesn't respond, and at what intervals).",198,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r01,D_product_launch,1,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a quick first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+Starting **[launch date]**, you can [primary action — sign up / access / purchase] at **[link or location]**.
+
+**What's new:**
+- [Feature or benefit 1]
+- [Feature or benefit 2]
+- [Feature or benefit 3]
+
+[Optional: brief story or context — why you built this, what problem it solves]
+
+We'd love to hear your feedback. Reach us at **[contact]**.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and the core benefit you want to lead with
+- Launch date and the action you want readers to take
+- Top 2–3 features worth highlighting
+
+Want me to sharpen the tone, adjust the format, or draft a version once you share those details?",247,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r02,D_product_launch,2,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a quick first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+Starting **[launch date]**, you can [primary action — sign up / access / purchase] at **[link or location]**.
+
+**What's new:**
+- [Feature or benefit 1]
+- [Feature or benefit 2]
+- [Feature or benefit 3]
+
+[Optional: brief story or context — why you built this, what problem it solves]
+
+We'd love to hear your feedback. Reach us at **[contact]**.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+1. The one-line value proposition — this is the most important line to nail
+2. The exact launch date
+3. The top 2–3 benefits you want to lead with
+
+Want me to sharpen any section, adjust the tone, or write a version for a specific channel like email, social, or press?",251,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r03,D_product_launch,3,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, available starting **[Release Date]**.
+
+**What it does**
+[Product Name] helps [target audience] [solve specific problem] so they can [key benefit].
+
+**What's new**
+- [Feature 1] — [brief description]
+- [Feature 2] — [brief description]
+- [Feature 3] — [brief description]
+
+**How to get started**
+[Call to action — sign up, download, request a demo, etc.] at **[link or contact]**.
+
+We'd love to hear your feedback as you explore [Product Name]. Reach out to **[contact name or team]** with any questions.
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Release date
+- Target audience and core benefit
+- Top 2–3 features to highlight
+- Call to action and link
+
+Want me to sharpen the tone, adjust the format, or draft a version for a specific channel like email, social, or press release?",270,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r04,D_product_launch,4,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a quick first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+Starting **[launch date]**, you can [primary action — sign up / access / purchase] at **[link or location]**.
+
+**What's new:**
+- [Feature or benefit 1]
+- [Feature or benefit 2]
+- [Feature or benefit 3]
+
+[Optional: brief story or context — why you built this, what problem it solves]
+
+We'd love to hear your feedback. Reach us at **[contact]**.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+1. The one-line value proposition — this is the most important line to nail
+2. The exact launch date
+3. The top 2–3 benefits you want to lead with
+
+Want me to sharpen any section, adjust the tone, or write a version for a specific channel like email, social, or press?",251,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r05,D_product_launch,5,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first draft:
+
+---
+
+**Subject: Introducing [Product Name] — Now Available**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [core benefit in one line].
+
+**What it does:**
+[Product Name] lets you [key capability 1], [key capability 2], and [key capability 3] — all in one place.
+
+**Why it matters:**
+[One or two sentences on the problem it solves and why now is the right time.]
+
+**Get started:**
+[Call to action — link, sign-up, demo request, etc.]
+
+We'd love to hear your feedback as you explore it.
+
+— [Your name / Team name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and core benefit
+- Three standout capabilities
+- Launch date if you want to reference timing
+- Call-to-action link
+
+Want me to sharpen the tone, adjust the length, or tailor it for a specific channel like email, LinkedIn, or a press release?",247,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r06,D_product_launch,6,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first draft:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, available starting **[Release Date]**.
+
+**What it does**
+[Product Name] helps [target audience] [solve specific problem] so they can [key benefit].
+
+**What's new**
+- [Feature 1] — [brief description]
+- [Feature 2] — [brief description]
+- [Feature 3] — [brief description]
+
+**How to get started**
+[Call to action — e.g., sign up, download, request a demo] at **[link or contact]**.
+
+We'd love to hear your feedback as we continue to improve.
+
+— [Your Name / Team Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and one-line value proposition
+- Target audience and the core problem it solves
+- Release date
+- Top three features worth highlighting
+- The specific call to action
+
+Want me to sharpen the tone, adjust the length, or tailor it for a specific channel like email, social, or a press release?",267,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r07,D_product_launch,7,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a quick first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+Starting **[launch date]**, you can [primary action — sign up / access / purchase] at **[link or location]**.
+
+**What's new:**
+- [Feature or benefit 1]
+- [Feature or benefit 2]
+- [Feature or benefit 3]
+
+[Optional: brief story or context — why you built this, what problem it solves]
+
+We'd love to hear your feedback. Reach us at **[contact]**.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and core benefit
+- Launch date and access link
+- Top 2–3 features worth highlighting
+
+Want me to sharpen the tone, adjust the format, or tailor it for a specific channel like email, social, or a press release?",244,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r08,D_product_launch,8,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, available starting **[Release Date]**.
+
+**What it does**
+[Product Name] helps [target audience] [solve specific problem] so they can [key benefit].
+
+**What's new**
+- [Feature 1] — [brief description]
+- [Feature 2] — [brief description]
+- [Feature 3] — [brief description]
+
+**How to get started**
+[Call to action — sign up, download, request a demo, etc.] at **[link or location]**.
+
+We'd love to hear your feedback. Reach out to **[contact or team name]** with any questions.
+
+---
+
+**A few things I need from you to sharpen this:**
+
+1. **Product name and one-line pitch** — what problem does it solve?
+2. **Target audience** — customers, internal teams, press?
+3. **Top 2–3 features** you want to highlight
+4. **Release date and call to action**
+5. **Tone** — formal, conversational, bold?
+
+Fill in any of those and I'll tighten the draft right away.",292,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r09,D_product_launch,9,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit] without [main pain point].
+
+**What it does:**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Available starting [Launch Date].**
+
+[Call to action — e.g., ""Sign up for early access"" / ""Learn more"" / ""Get started today""]
+
+[Link]
+
+— [Team/Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and the specific pain point you're solving
+- Top 2–3 features worth highlighting
+- Launch date
+- Call to action and destination link
+
+Want me to sharpen the tone, adjust the length, or tailor it for a specific channel like email, social, or a press release?",239,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r10,D_product_launch,10,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a quick first draft:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+Starting **[launch date]**, you can [primary action — sign up / access / purchase] at **[link or location]**.
+
+**What's new:**
+- [Feature or benefit 1]
+- [Feature or benefit 2]
+- [Feature or benefit 3]
+
+[Optional: brief story or context — why you built this, what problem it solves]
+
+We'd love to hear your feedback. Reach us at **[contact]**.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+1. Product name and tagline
+2. Target audience and core benefit
+3. Launch date and access link
+4. Top 2–3 features worth highlighting
+5. Tone preference — formal, conversational, or something else
+
+Want me to refine the tone, shorten it, or tailor it for a specific channel like email, social, or a press release?",263,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r11,D_product_launch,11,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, available starting **[Release Date]**.
+
+**What it does**
+[Product Name] helps [target audience] [solve specific problem] so they can [key benefit].
+
+**What's new**
+- [Feature 1] — [brief description]
+- [Feature 2] — [brief description]
+- [Feature 3] — [brief description]
+
+**How to get started**
+[Call to action — sign up, download, request a demo, etc.] at [link or contact].
+
+**Questions?**
+Reach out to [contact name or team] at [email/channel].
+
+We can't wait for you to try it.
+
+— [Team or Sender Name]
+
+---
+
+**A few things to fill in to make this real:**
+- Product name and tagline
+- Release date
+- Target audience description
+- Top 2–3 features worth highlighting
+- The specific call to action
+
+Want me to sharpen the tone, adjust for a specific audience (customers vs. internal team vs. press), or punch up any section?",277,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r12,D_product_launch,12,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first draft:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, available starting **[Release Date]**.
+
+**What it does**
+[Product Name] helps [target audience] [solve specific problem] so they can [key benefit].
+
+**What's new**
+- [Feature 1] — [brief description]
+- [Feature 2] — [brief description]
+- [Feature 3] — [brief description]
+
+**How to get started**
+[Call to action — e.g., sign up, download, request a demo] at **[link or contact]**.
+
+Questions? Reach out to **[contact name or team]**.
+
+---
+
+**A few things I need from you to sharpen this:**
+
+1. **Product name and one-line pitch** — what problem does it solve?
+2. **Target audience** — who is this for?
+3. **Top three features** — what should people notice first?
+4. **Release date and call to action** — when and how do people access it?
+5. **Tone** — formal, conversational, bold?
+
+Fill in those five and I can turn this into a polished, ready-to-send draft quickly.",295,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r13,D_product_launch,13,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+**What it does**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Why it matters**
+[One or two sentences on the problem it solves and why now is the right time.]
+
+**How to get started**
+- Visit [link] to sign up or learn more
+- Available starting [release date]
+- Questions? Reach out to [contact]
+
+We can't wait to hear what you think.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and key benefits
+- Release date and sign-up link
+- Contact point for questions
+
+Want me to sharpen the tone, adjust the length, or tailor it for a specific channel like email, social, or a press release?",254,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r14,D_product_launch,14,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a quick first draft:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+Starting **[launch date]**, you can [primary action — sign up / access / purchase] at **[link or location]**.
+
+**What's new:**
+- [Feature or benefit 1]
+- [Feature or benefit 2]
+- [Feature or benefit 3]
+
+[Optional: brief story or context — why you built this, what problem it solves]
+
+We'd love to hear your feedback. Reach us at **[contact]**.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and core benefit
+- Launch date and access link
+- Top 2–3 features worth highlighting
+
+Want me to sharpen the tone, adjust the format, or tailor it for a specific channel like email, social, or a press release?",244,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r15,D_product_launch,15,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit] without [main pain point].
+
+**What it does**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Why it matters**
+[One or two sentences on the problem it solves and why now is the right time.]
+
+**How to get started**
+[Call to action — sign up, request a demo, visit a link, etc.]
+
+We'd love to hear your feedback as we roll this out.
+
+— [Team / Sender Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and key benefit
+- Top three features to highlight
+- Launch date if you want to reference it
+- Call-to-action link or next step
+
+Want me to sharpen any section, adjust the tone, or draft a version for a specific channel like email, social, or a press release?",265,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r16,D_product_launch,16,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first draft:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, available starting **[Release Date]**.
+
+**What it does**
+[Product Name] helps [target audience] [solve specific problem] so they can [key benefit].
+
+**What's new**
+- [Feature 1] — [brief description]
+- [Feature 2] — [brief description]
+- [Feature 3] — [brief description]
+
+**How to get started**
+[Call to action — e.g., sign up, download, request a demo] at **[link or contact]**.
+
+We'd love to hear your feedback. Reach out to **[contact name or team]** with any questions.
+
+— [Your name / Team name]
+
+---
+
+**A few things I need from you to sharpen this:**
+
+1. **Product name and one-line pitch** — what does it do in plain language?
+2. **Target audience** — who is this for?
+3. **Top 2–3 features** you want to highlight
+4. **Release date** — confirmed or approximate?
+5. **Call to action** — what do you want readers to do immediately?
+
+Fill in any of those and I'll tighten the draft",300,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r17,D_product_launch,17,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+**What it does**
+[2–3 sentences describing the core functionality in plain language.]
+
+**Why it matters**
+[1–2 sentences on the problem it solves or the opportunity it unlocks.]
+
+**How to get started**
+[Call to action — link, sign-up, contact, etc.]
+
+We'll share more details on [release date]. In the meantime, reach out to [contact] with any questions.
+
+---
+
+**A few things I need from you to sharpen this:**
+
+1. **Product name and one-line pitch** — what's the core promise?
+2. **Target audience** — who is this for?
+3. **Release date** — do you have one confirmed?
+4. **Call to action** — sign up, request a demo, visit a page?
+
+Fill in those four and I can give you a polished, ready-to-send version.",257,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r18,D_product_launch,18,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit] without [main pain point].
+
+**What it does**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Why it matters**
+[One or two sentences on the problem it solves and why now is the right time.]
+
+**Get started**
+[Call to action — link, sign-up, demo request, etc.]
+
+Available starting **[launch date]**.
+
+We'd love to hear what you think. Reach out at [contact/support email].
+
+— [Team or sender name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and key benefit
+- Three standout features
+- Launch date
+- Call-to-action link
+
+Want me to sharpen the tone, adjust the length, or tailor it for a specific channel like email, social, or press release?",264,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r19,D_product_launch,19,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit] without [main pain point].
+
+**What it does:**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Available starting [Launch Date].**
+
+[Call to action — e.g., ""Sign up for early access"" / ""Learn more"" / ""Get started today""]
+
+[Link]
+
+Questions? Reach out at [contact email].
+
+— [Team/Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and the specific pain point you're solving
+- Top 2–3 features worth highlighting
+- Launch date and call-to-action link
+
+Want me to sharpen any section once you have those details, or should we draft around a specific product you have in mind?",245,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r20,D_product_launch,20,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a quick first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit].
+
+Starting **[launch date]**, you can [primary action — sign up / access / purchase] at **[link or location]**.
+
+**What's new:**
+- [Feature or benefit 1]
+- [Feature or benefit 2]
+- [Feature or benefit 3]
+
+[Optional: brief story or context — why you built this, what problem it solves]
+
+We'd love to hear your feedback. Reach us at **[contact]**.
+
+— [Team / Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and core benefit
+- Launch date and access link
+- Top 2–3 features worth highlighting
+
+Want me to sharpen the tone, adjust the format, or tailor it for a specific channel like email, social, or a press release?",244,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r21,D_product_launch,21,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit] without [main pain point].
+
+**What it does:**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Available starting [Launch Date].**
+
+To learn more or get early access, visit [link] or reply directly to this message.
+
+— [Team/Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and one-line value proposition
+- Target audience and key benefit
+- Three core features to highlight
+- Launch date and link
+
+Want me to sharpen the tone, adjust the length, or tailor it for a specific channel like email, social, or press release?",214,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r22,D_product_launch,22,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit] without [main pain point].
+
+**What it does**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Why it matters**
+[One or two sentences on the problem it solves and why now is the right time.]
+
+**How to get started**
+[Call to action — sign up, request a demo, visit a link, etc.]
+
+We'd love to hear your feedback as we roll this out.
+
+— [Team / Sender Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and tagline
+- Target audience and their core pain point
+- Top three features you want to highlight
+- The call to action and destination link
+- Launch date if you want to reference timing
+
+Want me to sharpen any section, adjust the tone, or draft a version for a specific channel like email, social, or a press release?",267,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r23,D_product_launch,23,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first draft:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, available starting **[Release Date]**.
+
+**What it does**
+[Product Name] helps [target audience] [solve specific problem] so they can [key benefit].
+
+**What's new**
+- [Feature 1] — [brief description]
+- [Feature 2] — [brief description]
+- [Feature 3] — [brief description]
+
+**How to get started**
+[Call to action — e.g., sign up, download, request a demo] at **[link or contact]**.
+
+We'd love to hear your feedback. Reach out to **[contact name or team]** with any questions.
+
+— [Your name / Team name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and one-line value proposition
+- Target audience and the core problem it solves
+- Top three features worth highlighting
+- Release date and the call-to-action link
+
+Want me to sharpen the tone, adjust the format, or help fill in any of those blanks?",271,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_D_side_r24,D_product_launch,24,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,owner assignments and release timing,announcement draft,"Help me prepare the product-launch checklist. The key things are owner assignments and release timing, but I am also thinking about the announcement draft. Before we go further, I need to know what to handle first.","I recommend we start with announcement draft first so the outward message is fixed before the checklist is finalized. If you would rather handle owner assignments and release timing first instead, we can do that.",Let's switch to the announcement draft first. Please give me a concrete first pass.,"Here's a concrete first pass:
+
+---
+
+**Subject: Introducing [Product Name] — [One-Line Value Proposition]**
+
+We're excited to announce the launch of **[Product Name]**, designed to help [target audience] [key benefit] without [main pain point].
+
+**What it does:**
+[Product Name] lets you [core feature 1], [core feature 2], and [core feature 3] — all in one place.
+
+**Available starting [Launch Date].**
+
+To learn more or get early access, visit [link] or reply directly to this message.
+
+— [Team/Company Name]
+
+---
+
+**A few things to fill in before this is ready:**
+- Product name and one-line value proposition
+- Target audience and key benefit
+- Three core features to highlight
+- Launch date and link
+
+Want me to sharpen the tone, adjust the length, or tailor it for a specific channel like email, social, or press release?",214,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r01,E_vendor_shortlist,1,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you will not exceed. This gives you a clear filter to apply to every vendor candidate.",48,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r02,E_vendor_shortlist,2,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you're willing to spend. This gives you a clear pass/fail filter to apply to each vendor.",51,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r03,E_vendor_shortlist,3,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,Define your required features list first. Write down the must-have features versus the nice-to-have features so you have a clear filter to apply to each vendor.,37,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r04,E_vendor_shortlist,4,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features so you have a clear filter to apply to each vendor.
+
+Once that list is ready, set your budget range, then use both to screen vendors and drop anyone who doesn't meet the must-haves or exceeds your budget.
+
+Want help drafting the must-have versus nice-to-have breakdown?",90,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r05,E_vendor_shortlist,5,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features for each vendor you are considering. Once that list is clear, we can set the budget range and start scoring vendors against both.",51,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r06,E_vendor_shortlist,6,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features so you have a clear filter to apply to each vendor.
+
+Once that list is ready, set your budget range, then score each vendor against both.
+
+Want help drafting the must-have versus nice-to-have breakdown?",73,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r07,E_vendor_shortlist,7,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must support, mark each as must-have or nice-to-have, and agree on the maximum spend. That gives you a clear filter to apply to every vendor candidate.",56,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r08,E_vendor_shortlist,8,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features for each vendor you are considering. Once that list is clear, we can set the budget range and use both to filter the vendors down to a shortlist.",57,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r09,E_vendor_shortlist,9,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features so you have a clear filter to apply to each vendor.
+
+Once that list is ready, set your budget range, then use both to score and eliminate vendors.
+
+Want help drafting the must-have versus nice-to-have breakdown?",75,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r10,E_vendor_shortlist,10,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features for each vendor you are considering. Once that list is clear, we can set the budget range and start scoring vendors against both.",51,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r11,E_vendor_shortlist,11,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you will not exceed. This gives you a clear filter to apply to every vendor candidate.",48,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r12,E_vendor_shortlist,12,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must support, mark each as must-have or nice-to-have, and agree on the maximum spend. That gives you a clear filter to apply to every vendor candidate.",56,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r13,E_vendor_shortlist,13,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you're willing to spend. This gives you a clear filter to apply to every vendor candidate.",49,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r14,E_vendor_shortlist,14,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features so you have a clear filter to apply to each vendor.
+
+Once that list is ready, set your budget range, then score each vendor against both.
+
+Want help drafting the must-have versus nice-to-have breakdown?",73,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r15,E_vendor_shortlist,15,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features for each vendor you are considering. Once that list is clear, we can set the budget range and start scoring vendors against both.",51,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r16,E_vendor_shortlist,16,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features that every vendor needs to meet, then separate the nice-to-haves. Once that list is locked, set your budget range so you can immediately filter out vendors that don't qualify on either count.",59,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r17,E_vendor_shortlist,17,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you will not exceed. This gives you a clear filter to apply to every vendor candidate.",48,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r18,E_vendor_shortlist,18,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you're willing to spend. This gives you a clear pass/fail filter to apply to each vendor.",51,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r19,E_vendor_shortlist,19,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you will not exceed. This gives you a clear filter to apply to every vendor candidate.",48,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r20,E_vendor_shortlist,20,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must support and the maximum you can spend, so you have clear pass/fail criteria to screen vendors against.",42,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r21,E_vendor_shortlist,21,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features for each vendor you are considering. Once that list is clear, we can set the budget range and start scoring vendors against both.",51,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r22,E_vendor_shortlist,22,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you're willing to spend. This gives you a clear filter to apply to every vendor candidate.",49,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r23,E_vendor_shortlist,23,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your must-have features and set your budget ceiling. List every feature the vendor must have to qualify, then set the maximum budget you will not exceed. This gives you a clear filter to apply to every vendor candidate.",48,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_E_main_r24,E_vendor_shortlist,24,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_main_first,main_objective,required features and budget,integration timing,"Help me prepare the vendor shortlist. The key things are required features and budget, but I am also thinking about integration timing. Before we go further, I need to know what to handle first.","I recommend we start with required features and budget first so the shortlist criteria are fixed before scheduling integration work. If you would rather handle integration timing first instead, we can do that.",Let's stay with required features and budget first. Please give me the next concrete shortlist step.,"Define your required features list first. Write down the must-have features versus the nice-to-have features for each vendor you are considering. Once that list is clear, we can set the budget range and start scoring vendors against both.",51,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r01,F_course_schedule,1,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step for study groups would be to **list out the classmates you'd want to study with and check their general availability**. This gives you a starting point before trying to fit group sessions into the schedule.,50,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r02,F_course_schedule,2,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step for study groups:
+
+**Identify 2-3 classmates who have similar availability and are in the same required courses as you.**
+
+This gives you a starting point to build around before committing to any specific meeting times. Once you have those people in mind, we can figure out when and how often to meet.",76,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r03,F_course_schedule,3,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step for study groups:
+
+**Identify 2-3 classmates who have similar availability and are in the same required classes as you.**
+
+This gives you a starting point to build around before committing to any specific meeting times. Once you have those people in mind, we can figure out when and how often to meet.",76,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r04,F_course_schedule,4,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and check their general availability**. This gives you a foundation to work with before trying to fit group sessions into the schedule.,46,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r05,F_course_schedule,5,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step for study groups:
+
+**Identify 2-3 classmates who have similar availability and are in the same required courses as you.**
+
+This gives you a starting point before committing to any specific meeting times or format. Once you have those people in mind, we can figure out when and how to structure the group around your schedule.",79,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r06,F_course_schedule,6,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** among everyone. You can do this by sending a quick message to potential members asking for their free time slots this week. That gives you something solid to work with before locking in meeting times.,67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r07,F_course_schedule,7,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** — just ask each person for their free times this week. That gives you something solid to work with before locking in any schedule.,55,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r08,F_course_schedule,8,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** — even just a quick poll or group chat message asking for their free times works well. That gives you something solid to work with before locking in any schedule.,61,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r09,F_course_schedule,9,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step for study groups would be to **list out the classmates you'd want to study with and check their general availability**. This gives you a starting point before trying to fit group sessions into the schedule.,50,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r10,F_course_schedule,10,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** — just ask each person for their free times this week. That gives you something solid to work with before locking in any schedule.,55,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r11,F_course_schedule,11,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** among everyone. You can do this by sending a quick message to potential members asking for their free time slots this week. That gives you something solid to work with before locking in meeting times.,67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r12,F_course_schedule,12,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step for study groups would be to **list out the classmates you'd want to study with and check their general availability**. This gives you a starting point before trying to fit group sessions into the schedule.,50,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r13,F_course_schedule,13,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step for study groups would be to **list out the classmates you'd want to study with and check their general availability**. This gives you a starting point before trying to fit group sessions into the schedule.,50,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r14,F_course_schedule,14,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step for study groups:
+
+**Identify 2-3 classmates who have similar availability and are in the same required courses as you.**
+
+This gives you a starting point to build around before locking in meeting times. Want help figuring out what questions to ask to find the right people?",70,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r15,F_course_schedule,15,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step for study groups would be to **list out the subjects or classes where you want a study group**, then identify 2-3 classmates for each one. That gives you a clear starting point before worrying about when and where to meet.",59,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r16,F_course_schedule,16,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step is to **list the subjects or classes where you'd want a study group**, then note how many people you'd ideally want in each group. That gives you a clear starting point to reach out to classmates or post in your course forums.",59,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r17,F_course_schedule,17,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step for study groups would be to **list out the classmates you'd want to study with and check their general availability**. This gives you a starting point before trying to fit group sessions into the schedule.,50,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r18,F_course_schedule,18,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step for study groups:
+
+**Identify 2-3 classmates who have similar availability and are in the same required courses as you.**
+
+This gives you a starting point to build around before locking in meeting times. Want help figuring out what to look for when choosing study group members?",70,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r19,F_course_schedule,19,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** — just ask each person for their free times this week. That gives you something solid to work with before locking in any schedule.,55,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r20,F_course_schedule,20,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** — just ask each person for their free times this week. That gives you something solid to work with before locking in any schedule.,55,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r21,F_course_schedule,21,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step is to **list the subjects or classes where you'd want a study group**, then we can figure out timing and who to invite. Want to start by naming those subjects?",44,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r22,F_course_schedule,22,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step for study groups would be to **list out the classmates you'd want to study with and check their general availability**. This gives you a starting point before trying to fit group sessions into the schedule.,50,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r23,F_course_schedule,23,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,Sure! A concrete next step is to **list out who you want in your study group and find a common availability window** among everyone. You can do this by sending a quick message to potential members asking for their free time slots this week. That gives you something solid to work with before locking in meeting times.,67,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z
+GPH2_anthropic_baseline_F_side_r24,F_course_schedule,24,anthropic,claude-sonnet-4-6,0.0,baseline,revisable_recommendation,same_as_recommendation,accept_side_first,side_topic,required classes and exam timing,study group options,"Help me prepare the course schedule. The key things are required classes and exam timing, but I am also thinking about study group options. Before we go further, I need to know what to handle first.","I recommend we start with study group options first so the collaboration options are clear before the schedule is packed. If you would rather handle required classes and exam timing first instead, we can do that.",Let's switch to study group options first. Please give me a concrete next step for that.,"Sure! A concrete next step is to **list the subjects or courses where you'd want a study group**, then identify 2-3 classmates for each one. That gives you a starting point to reach out and coordinate availability before the schedule gets too busy.",57,222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942,2026-03-20T15:29:23Z

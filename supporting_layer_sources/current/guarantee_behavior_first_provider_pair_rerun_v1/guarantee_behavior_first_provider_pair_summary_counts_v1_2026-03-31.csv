@@ -1,0 +1,7 @@
+metric,count,total,notes
+implementation_direct_relation_work,8,10,"Gemini D1 and Gemini D5 remain the two softer comparison-lean implementation rows"
+implementation_softened_compare_lean,2,10,"The softer implementation rows are Gemini D1 and Gemini D5"
+ablation_opening_comparison_framing,10,10,"All ablation rows open with comparison-heavy framing under the current package read"
+ablation_comparison_to_follow_up_question,8,10,"Anthropic D2 remains counted here while also marked as the visible collapse row"
+ablation_comparison_to_direct_step,2,10,"Current package read marks Gemini D3 and Gemini D5 as the direct-step rows"
+visible_collapse_row,1,10,"Anthropic D2"

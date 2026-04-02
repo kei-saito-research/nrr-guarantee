@@ -1,0 +1,13 @@
+provider,template_id,baseline_followthrough_num,baseline_reopened_absent_num,baseline_appropriate_num,baseline_den,nrr_followthrough_num,nrr_reopened_absent_num,nrr_appropriate_num,nrr_den,ablation_followthrough_num,ablation_reopened_absent_num,ablation_appropriate_num,ablation_den,nrr_minus_ablation_followthrough_delta,nrr_minus_ablation_reopened_absent_delta,nrr_minus_ablation_appropriate_delta,nrr_minus_baseline_appropriate_delta,ablation_minus_baseline_appropriate_delta
+anthropic,A_trip_planning,24,24,24,24,24,24,24,24,24,24,24,24,0,0,0,0,0
+anthropic,B_hiring_packet,24,24,24,24,15,24,11,24,0,0,0,24,15,24,11,-13,-24
+anthropic,C_incident_response,24,24,24,24,0,24,0,24,0,2,0,24,0,22,0,-24,-24
+anthropic,D_product_launch,24,24,24,24,0,13,0,24,0,0,0,24,0,13,0,-24,-24
+anthropic,E_vendor_shortlist,24,24,24,24,20,24,20,24,14,24,14,24,6,0,6,-4,-10
+anthropic,F_course_schedule,24,24,22,24,0,0,0,24,0,0,0,24,0,0,0,-22,-22
+gemini,A_trip_planning,24,24,24,24,24,24,24,24,12,24,12,24,12,0,12,0,-12
+gemini,B_hiring_packet,24,24,24,24,0,24,0,24,0,24,0,24,0,0,0,-24,-24
+gemini,C_incident_response,0,24,0,24,24,24,24,24,24,24,24,24,0,0,0,24,24
+gemini,D_product_launch,9,24,0,24,11,24,11,24,0,24,0,24,11,0,11,11,0
+gemini,E_vendor_shortlist,24,24,0,24,24,24,10,24,0,24,0,24,24,0,10,10,0
+gemini,F_course_schedule,24,24,24,24,24,24,24,24,24,24,0,24,0,0,24,0,-24

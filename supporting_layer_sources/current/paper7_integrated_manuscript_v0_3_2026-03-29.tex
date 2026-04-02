@@ -1,0 +1,463 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[numbers]{natbib}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{listings}
+
+\geometry{
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+\title{\textbf{Delayed-Commitment Patterns in Stateful LLM Systems:\\Fixed Paired Comparison with Provider-Sensitive Boundary Reporting}}
+\author{
+  Kei Saito\thanks{ORCID: 0009-0006-4715-9176} \\
+  Independent Researcher, Japan \\
+  \texttt{kei.saito.research@gmail.com}
+}
+\date{March 2026 \\[0.5em]
+\textit{Part of the Non-Resolution Reasoning (NRR) research program.}}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\textcopyright\ 2026 Kei Saito.
+Licensed under CC BY 4.0.\\
+\url{https://creativecommons.org/licenses/by/4.0/}
+\end{center}
+
+\begin{abstract}
+Delayed-commitment recommendations in large language model systems are often discussed too broadly or reused as if they transfer uniformly across providers and task conditions. This paper compares five delayed-commitment patterns under a fixed paired protocol with live provider APIs and then reports where that resulting pattern map remains condition-bounded under selected provider-sensitive boundary checks. On the current comparison-side read, Hierarchical Resolution, Delta Update, Lazy Expansion, and Conditional Refinement remain in the supported positive comparison region, while Branch Preservation is the clearest unstable comparison-side pattern on the rerun-backed surface. A compact compression comparison shows that the observed gains are not reducible to generic prompt shortening: principle-only remains the strongest comparison read across the retained patterns, whereas compression-only weakens or fails for key cases. Selected Stage B boundary checks then show that a single aggregate view can hide provider-sensitive reversals and non-effective cells: conditional remains the cleanest positive boundary-facing pattern on the carried-forward key metrics, while other patterns show weaker or reversing cells by provider. The resulting contribution is a condition-bounded pattern map whose headline comparison read is then made honest by explicit unstable, sign-flip, and non-effective boundary reporting rather than by a universal ranking or universal deployment rule.
+
+\end{abstract}
+
+\noindent\textbf{Keywords:} Non-Resolution Reasoning, delayed commitment, stateful LLM systems, paired comparison, provider heterogeneity, boundary reporting
+
+\section{Introduction}
+\label{sec:intro}
+
+Delayed commitment is useful in many stateful LLM workflows, but recommendations built from that idea are easy to overgeneralize. A pattern that reduces cost in one setting may weaken, reverse, or become non-effective under another provider or operating condition. The main problem for this paper is therefore not whether delayed commitment can ever help, but how to compare multiple delayed-commitment patterns under one auditable protocol while keeping the resulting pattern map honest about its limits.
+
+This integrated paper7 is the comparison-led pattern paper in the current NRR spine. Earlier papers establish first principles, text-to-state mapping, interface decomposition, transfer behavior, and dependency-aware propagation~\cite{saito2025nrr,saito2026phi,saito2026ime,saito2026transfer,saito2026coupled}. The role here is narrower and more practical: compare five delayed-commitment patterns under fixed paired conditions, then report where the resulting map remains positive, weakens, reverses, or becomes non-effective under selected boundary checks. In the downstream series read, this paper is the upstream comparison-and-boundary-honesty layer for later calibration and closure work, not a universal endpoint.
+
+NRR is not an anti-LLM framework.
+NRR does not replace standard LLM use.
+NRR optimizes when to commit and when to defer, under explicit conditions.
+
+\textbf{Series Consistency Statement:}
+Across the NRR series, unsupported interpretations are not injected at a fixed evidence state, hypothesis-set expansion is evidence-gated, and unobserved possibilities remain explicitly unresolved. In integrated paper7, this policy is operationalized by keeping the main five-pattern comparison separate from selected boundary-honesty carry-forward, and by reporting unstable, sign-flip, and non-effective regions explicitly rather than hiding them behind winner-only summaries.
+
+\textbf{Series Extensibility Statement:}
+NRR should be read here as a derivation-and-evaluation framework, not as a closed recipe. The five delayed-commitment patterns in integrated paper7 are an evaluated set under the current fixed paired protocol, not an exhaustive set of admissible patterns. Additional patterns or operator-family extensions are in scope only when they are tested under the same fixed-protocol discipline and reported with equally explicit condition-bounded boundary language.
+
+Integrated paper7 compares five delayed-commitment patterns under a fixed paired protocol and reports where the resulting pattern map remains positive, weakens, reverses, or becomes non-effective across provider-sensitive boundary checks.
+
+The five canonical patterns are:
+\begin{enumerate}
+  \item Hierarchical Resolution
+  \item Lazy Expansion
+  \item Branch Preservation
+  \item Delta Update
+  \item Conditional Refinement
+\end{enumerate}
+
+These are treated here as delayed-commitment \emph{patterns}, not as the default meaning of lower-level \emph{operator} language used elsewhere in the series. That distinction matters because upstream and downstream papers already use \((\sigma/\delta,\text{target})\)-style operator language for interface-level update primitives~\cite{saito2026phi,saito2026transfer,saito2026coupled}. The current paper instead evaluates pattern-level delayed-commitment designs.
+
+\subsection{Contributions}
+
+\begin{enumerate}
+  \item A fixed paired comparison of five delayed-commitment patterns under one integrated paper-level protocol.
+  \item A condition-bounded pattern map that distinguishes positive, unstable, sign-flip, and non-effective regions instead of reporting winner-only conclusions.
+  \item A provider-sensitive boundary-honesty layer showing where aggregate reads can hide reversals or weak cells.
+  \item A compression control showing that the observed gains are not reducible to generic prompt shortening.
+\end{enumerate}
+
+\section{Related Work}
+\label{sec:related}
+
+\textbf{Delayed commitment and stateful interaction.}
+Prior NRR work establishes the failure mode, text-to-state mapping, interface decomposition, cross-domain interface reuse, and dependency-aware propagation needed for stateful execution on stateless APIs~\cite{saito2025nrr,saito2026phi,saito2026ime,saito2026transfer,saito2026coupled}. The present paper does not reopen those layers. Instead, it compares multiple delayed-commitment patterns built on top of them and asks how that comparison should be read under explicit provider-sensitive boundaries.
+
+\textbf{Efficiency and compression.}
+Context-efficiency work, including retrieval compression and prompt-side compaction, targets token cost and context footprint directly~\cite{xu2023recomp,chevalier2023compress}. This paper overlaps in efficiency interest but differs in object: the main question is not simply whether prompts can be shortened, but whether delaying specific commitments yields a usable pattern map that remains condition-bounded once provider-sensitive boundary checks are surfaced. That is why the compression comparison is kept as a control rather than as the paper's main identity.
+
+\textbf{Boundary-aware evaluation.}
+Prompt- and setup-sensitive evaluation work repeatedly shows that effect direction can change with protocol details, model choice, and reporting frame~\cite{liang2022helm,zheng2023mtbench,dubois2024alpacaeval,kojima2022zeroshot,wang2023selfconsistency,zhao2021calibrate}. Integrated paper7 adopts that lesson in a narrower form: it keeps one fixed paired comparison spine, then carries forward selected provider-sensitive boundary evidence so the comparison map is not over-read as a universal ranking.
+
+\section{Pattern Set and Evaluation Logic}
+\label{sec:method}
+
+\subsection{Pattern Set and Paired Baselines}
+
+Each pattern is evaluated under paired baseline-vs-pattern comparison with fixed scenario definitions and prompt templates inherited from the current released evidence surfaces. Table~\ref{tab:pattern_catalog} states the pattern set, its baseline contrast, and the current evidential role in the integrated paper.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{p{3.2cm}p{4.6cm}p{3.0cm}p{3.4cm}}
+\toprule
+\textbf{Pattern} & \textbf{Paired baseline contrast} & \textbf{Delayed-commitment axis} & \textbf{Current paper role} \\
+\midrule
+Hierarchical Resolution & flat full-option selection vs category-then-tool selection & decision granularity & strongest comparison-side pattern \\
+Lazy Expansion & eager full retrieval vs summary-first selective retrieval & content expansion & positive comparison-side pattern with later boundary sensitivity \\
+Branch Preservation & no branch memory vs checkpointed branch restoration & branch destruction & unstable comparison-side pattern \\
+Delta Update & full-state resend vs changed-item-only updates & state retransmission & positive comparison-side pattern \\
+Conditional Refinement & detailed-by-default vs coarse-first refinement & output detail & positive comparison-side pattern and cleanest carried-forward boundary-facing pattern \\
+\bottomrule
+\end{tabular}
+\caption{Canonical pattern catalog for integrated paper7. The comparison-led manuscript centers these five patterns rather than treating paper7 as a broad standalone ``principles'' paper.}
+\label{tab:pattern_catalog}
+\end{table}
+
+\subsection{Primary and Supporting Metrics}
+
+The headline comparison metric is \emph{provider-balanced weighted reduction}. Supporting comparison metrics remain weighted global reduction, median reduction, trimmed reduction, and cost-per-success delta. These supporting metrics remain useful, but they do not replace the headline role of the provider-balanced metric in the main comparison read.
+
+\subsection{Boundary-Honesty Metrics}
+
+Selected carried-forward boundary metrics are misinterpretation improvement and rework improvement. Their role is not to replace the main token-efficiency center, but to show where the pattern map becomes provider-sensitive, unstable, or non-effective. Additional diagnostics such as trace completeness, update consistency, internal coherence error rate, self-contradiction rate, and selected stability diagnostics remain available as secondary/package-facing surfaces when they materially sharpen the honesty of the paper-level read.
+
+\subsection{Reporting Rules and Validity Limits}
+
+Use provider-balanced results for the headline comparison and provider-separated results for boundary honesty where aggregation could hide reversals.
+
+The canonical result-language ladder is:
+\begin{itemize}
+  \item positive region
+  \item unstable region
+  \item sign-flip region
+  \item non-effective region
+\end{itemize}
+
+The main comparison surface primarily supports the positive/unstable read. Sign-flip and non-effective labels are carried by selected boundary checks where those regions are directly observed. Accordingly, these labels should not be misread as if they were all outputs of the headline comparison metric alone.
+
+\section{Experimental Surfaces}
+\label{sec:surfaces}
+
+\subsection{Main Comparison Surface}
+
+The primary experimental spine uses the rerun-backed five-pattern comparison surface currently carried by the released Principles line:
+\begin{itemize}
+  \item Stage1 main (\(t=0.0\))
+  \item Stage1 rep2 (\(t=0.0\))
+  \item Stage2 (\(t=0.3\))
+\end{itemize}
+
+For this integrated design, these runs are read as one fixed five-pattern paired-comparison program with robustness layers over the same comparison object, not as unrelated stitched experiment families. The integrated source-of-truth name freeze for these comparison surfaces is recorded in \path{repro/paper7_integrated_comparison_claims_manifest_v2_2026-03-29.csv}. The current reviewer-facing comparison headline summary is \path{results/analysis/paper7_integrated_comparison_headline_summary_v1_2026-03-29.csv}, and its upstream source members are:
+\begin{itemize}
+  \item \path{results/paper7_results_allproviders_clean.zip::results/analysis/paper7_allproviders_pattern_summary_robust_t00.csv}
+  \item \path{results/paper7_results_stage1_t00_rep2.zip::results/analysis/paper7_allproviders_pattern_summary_robust_t00.csv}
+  \item \path{results/paper7_results_stage2_t03.zip::results/analysis/paper7_allproviders_pattern_summary_robust_t03.csv}
+\end{itemize}
+This package therefore exposes one explicit comparison headline summary for manuscript-facing inspection while preserving the three run-specific source members for drill-down.
+
+\subsection{Compression Comparison}
+
+The compression comparison remains in the main manuscript as a compact interpretive control. Its role is to answer the reviewer question: are the observed gains just generic prompt compression? The canonical integrated name for this control is also frozen in \path{repro/paper7_integrated_comparison_claims_manifest_v2_2026-03-29.csv}. The current aggregated control surface is \path{results/analysis/paper7_comparison_summary_r2_aggregated.csv}, with per-provider drill-down in \path{results/analysis/paper7_comparison_summary_r2_by_provider.csv} and raw comparison traces inside the three \path{paper7_compare_t00_r2_*.zip} artifacts.
+
+\subsection{Selected Stage B Boundary-Resolution Surface}
+
+Selected Stage B evidence enters integrated paper7 as a carried-forward boundary-honesty layer, not as the paper's primary confirmatory center. The integrated source-of-truth name freeze for this layer is recorded in \path{repro/paper7_integrated_boundary_claims_manifest_v1_2026-03-29.csv}. In the integrated package, the carried-forward Stage B read is traceable to:
+\begin{itemize}
+  \item \path{nrr-boundary/stats/stageb_all/mst_provider_balanced.csv}
+  \item \path{nrr-boundary/stats/stageb_all/mst_provider_separated.csv}
+  \item \path{nrr-boundary/stats/stageb_all/mst_sign_flip_boundaries.csv}
+  \item \path{nrr-boundary/stats/stageb_all/stageb_confirmatory_tests_holm30.csv}
+\end{itemize}
+These are used here only to make the comparison map honest about provider-sensitive weakening, reversals, and non-effective cells. They are not used to replace the token-efficiency headline or to turn integrated paper7 into a second boundary-led manuscript.
+
+\subsection{Secondary / Package-First Surfaces}
+
+Ordered-combination follow-up, rep1-vs-rep3 direction details, and no-position ablation are not part of the default mainline. Ordered composition remains secondary because it introduces a separate provider-by-order interaction story that can easily dominate the paper if over-promoted. The no-position ablation remains useful as a robustness check, but it is not required for the main comparison claim hierarchy. In the current integrated read, both therefore remain appendix/package-first by default.
+
+\section{Results: Pattern Comparison}
+\label{sec:results_comparison}
+
+\subsection{Provider-Balanced Pattern Map}
+
+Across the three rerun-backed comparison runs, provider-balanced weighted reduction remains strongly heterogeneous rather than uniform. Table~\ref{tab:comparison_summary} gives the current manuscript-facing summary from the integrated comparison headline summary named in Sec.~\ref{sec:surfaces}.
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{p{2.6cm}rrrr}
+\toprule
+\textbf{Pattern} & \textbf{Stage1 main} & \textbf{Stage1 rep2} & \textbf{Stage2} & \textbf{Three-run mean} \\
+\midrule
+Hierarchical & \(+56.752\%\) & \(+57.606\%\) & \(+55.737\%\) & \(+56.698\%\) \\
+Delta & \(+39.074\%\) & \(+38.956\%\) & \(+38.980\%\) & \(+39.003\%\) \\
+Lazy & \(+37.951\%\) & \(+37.459\%\) & \(+38.066\%\) & \(+37.826\%\) \\
+Conditional & \(+37.011\%\) & \(+35.353\%\) & \(+32.235\%\) & \(+34.867\%\) \\
+Branch & \(+2.452\%\) & \(+3.081\%\) & \(-21.713\%\) & \(-5.393\%\) \\
+\bottomrule
+\end{tabular}
+\caption{Provider-balanced weighted reduction across the three rerun-backed comparison runs. Values are read from the integrated comparison headline summary in Sec.~\ref{sec:surfaces}, which records the three upstream source members explicitly.}
+\label{tab:comparison_summary}
+\end{table}
+
+The resulting comparison-side read is:
+\begin{itemize}
+  \item Hierarchical is the strongest supported comparison-side pattern on the rerun-backed surface.
+  \item Delta, Lazy, and Conditional remain in the supported positive comparison region.
+  \item Branch is the clearest unstable comparison-side pattern rather than part of the supported positive set.
+\end{itemize}
+
+\subsection{Replication and Temperature Robustness}
+
+The integrated paper retains the three-run comparison because the main issue is not just absolute gain magnitude but direction stability under the rerun-backed surface. Hierarchical, Delta, Lazy, and Conditional remain positive in all three runs. Conditional weakens at \(t=0.3\) but stays clearly positive. Branch, by contrast, is slightly positive in both \(t=0.0\) runs and then collapses negative in Stage2, which is exactly why the integrated paper reads it as unstable rather than as a fifth positive pattern.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\textwidth]{fig_principles_weighted_3runs.png}
+\caption{Provider-balanced weighted reduction across the three rerun-backed comparison runs. Error bars show the observed range over runs for each pattern.}
+\label{fig:paper7_comparison_3runs}
+\end{figure}
+
+\subsection{Provider-Sensitive Stability Split}
+
+The comparison surface already shows that aggregate positivity is not the same as universal safety. Branch is the clearest example: it loses positive status once the rerun-backed three-run view is used, and the negative Stage2 result is too large to describe as mere small-sample noise. The other four patterns are substantially more stable on the main comparison surface, but even there the correct read is still condition-bounded rather than universal. This is why integrated paper7 stops at a comparison-led pattern map and then carries boundary honesty separately, rather than converting the comparison table into a deployment-wide ranking.
+
+\subsection{Pattern Status Ladder}
+
+The end of the comparison section collapses the mainline read into one compact status ladder. Table~\ref{tab:status_ladder} states the current integrated-paper summary.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{p{3.0cm}p{3.6cm}p{7.0cm}}
+\toprule
+\textbf{Pattern} & \textbf{Comparison-side status} & \textbf{Boundary-honesty note} \\
+\midrule
+Hierarchical & positive region & remains strong on the comparison surface, but later boundary views still matter for provider-sensitive weakening cells \\
+Lazy & positive region & comparison-side positive, but carried-forward boundary views expose weaker and degrading cells \\
+Branch & unstable region & strongest comparison-side instability; not part of the clean supported set \\
+Delta & positive region & comparison-side positive, but selected boundary checks expose weaker cells \\
+Conditional & positive region & cleanest positive pattern on the carried-forward key boundary metrics \\
+\bottomrule
+\end{tabular}
+\caption{Integrated paper7 status ladder. Comparison-side status is assigned from the rerun-backed comparison surface, while the right column records the role of selected Stage B honesty evidence.}
+\label{tab:status_ladder}
+\end{table}
+
+\section{Results: Boundary and Control Checks}
+\label{sec:results_boundary}
+
+\subsection{Compression Is Not a Drop-In Substitute}
+
+The compression control stays in the main text because it answers the most natural skepticism against a comparison-led delayed-commitment paper: perhaps the gains come only from shorter prompts. The current aggregated comparison, however, does not support that simpler story. Table~\ref{tab:r2_takeaway_integrated} shows that principle-only remains clearly positive for all three tested patterns, whereas compression-only is negative for Hierarchical and Delta and only near-neutral for Lazy.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Pattern} & \textbf{Principle-only} & \textbf{Compression-only} & \textbf{Principle+compression} \\
+\midrule
+Delta & \(+38.148\%\) & \(-25.623\%\) & \(+3.324\%\) \\
+Hierarchical & \(+57.212\%\) & \(-8.224\%\) & \(+36.675\%\) \\
+Lazy & \(+38.207\%\) & \(+1.523\%\) & \(+8.589\%\) \\
+\bottomrule
+\end{tabular}
+\caption{Provider-balanced weighted reduction for the retained r2 compression comparison. Values are read from the aggregated r2 comparison summary artifact described in Sec.~\ref{sec:surfaces}.}
+\label{tab:r2_takeaway_integrated}
+\end{table}
+
+The comparative structure matters. Principle-only remains the strongest read for all three patterns, while the combination condition stays positive but weaker than principle-only. Compression-only therefore functions as a useful control but not as an equivalent substitute for delayed-commitment patterning.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{fig_r2_comparison_weighted.png}
+\caption{Compression control for the retained three-pattern subset. Principle-only remains strongest, while compression-only weakens or fails for key cases.}
+\label{fig:paper7_r2_comparison}
+\end{figure}
+
+\subsection{Selected Stage B Boundary Checks}
+
+Selected Stage B evidence is carried into integrated paper7 only to make the comparison map honest about where provider-separated quality behavior weakens, reverses, or becomes non-effective. Table~\ref{tab:stageb_selected_integrated} summarizes the two key metrics retained for this role.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrr}
+\toprule
+\textbf{Pattern} & \textbf{Misinterpretation improvement} & \textbf{Rework improvement (tokens)} \\
+\midrule
+Conditional & \(+0.0781\) & \(+122.6481\) \\
+Hierarchical & \(+0.0120\) & \(-12.1852\) \\
+Delta & \(+0.0028\) & \(-26.6296\) \\
+Branch & \(-0.0006\) & \(-24.7222\) \\
+Lazy & \(-0.1242\) & \(-234.3704\) \\
+\bottomrule
+\end{tabular}
+\caption{Selected Stage B provider-balanced key-metric improvements, read from the Stage B provider-balanced artifact described in Sec.~\ref{sec:surfaces}. Positive values indicate improvement over baseline.}
+\label{tab:stageb_selected_integrated}
+\end{table}
+
+This boundary-honesty layer changes how the comparison map should be read:
+\begin{itemize}
+  \item Conditional is the cleanest positive pattern on the carried-forward Stage B key metrics across providers.
+  \item Lazy is the clearest degraded pattern on the carried-forward confirmatory surface, with negative provider-balanced means on both retained key metrics.
+  \item Hierarchical, Delta, and Branch show provider-sensitive weakening or reversal cells rather than a clean all-provider carry-forward.
+  \item Sign-flip and non-effective regions must be reported explicitly rather than hidden behind pooled summaries.
+\end{itemize}
+
+The provider-separated read makes the same point more sharply. Conditional remains positive on misinterpretation and rework across Anthropic, OpenAI, and Gemini. By contrast, Hierarchical flips negative on Gemini for both retained key metrics, Delta is negative on Anthropic and Gemini for rework, Branch is negative on Gemini for both retained key metrics, and Lazy is strongly negative on Gemini while only weakly positive or near-neutral elsewhere. This is why Stage B is kept as a boundary-honesty layer: it does not replace the main comparison spine, but it prevents readers from over-reading the positive comparison map as provider-invariant.
+
+Sign-flip evidence is also direct rather than rhetorical. In the current Stage B boundary artifact, sign-flip boundaries appear in 20 of 45 pattern-metric cells. Conditional shows no Stage B sign-flip cells under this setup, while Branch, Delta, Hierarchical, and Lazy all show sign-flip boundaries on multiple metrics. Figure~\ref{fig:paper7_stageb_signflip} is included here for compact honesty reporting rather than for boundary-paper completeness.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{paper7_stageb_sign_flip_boundaries.png}
+\caption{Selected Stage B sign-flip boundary map carried forward as the honesty layer for integrated paper7.}
+\label{fig:paper7_stageb_signflip}
+\end{figure}
+
+The confirmatory results are consistent with this reading. In \path{nrr-boundary/stats/stageb_all/stageb_confirmatory_tests_holm30.csv}, only five Holm-significant cells survive correction: two positive cells for Conditional (misinterpretation and rework) and three degraded cells for Lazy (update consistency, internal coherence, and self-contradiction). That pattern is exactly the kind of selective carry-forward the integrated paper needs: enough to make the positive comparison story honest, but not enough to turn the manuscript into a second confirmatory paper on operator boundaries.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the Pattern Map Supports}
+
+The supported read is condition-bounded utility, not universal superiority. Hierarchical, Delta, Lazy, and Conditional remain useful on the rerun-backed comparison surface, but they do not all carry forward equally well once provider-sensitive boundary evidence is added. Branch fails even earlier by losing positive status on the three-run comparison mean itself. That is why the right manuscript output is a pattern map, not a universal ranking.
+
+\subsection{Why Provider Sensitivity Changes the Read}
+
+Provider-balanced summaries are useful for the headline comparison, but provider-separated boundary views are necessary where aggregation can hide reversals. The integrated manuscript therefore uses two evidence roles on purpose: comparison for the main ranking-limited read, boundary honesty for the carry-forward caveat layer. Collapsing those roles would either overstate the comparison or overinflate the boundary section into a second main paper.
+
+\subsection{Why Compression Is Not Enough}
+
+The compact control against generic prompt compression matters because it distinguishes delayed-commitment patterning from a simpler prompt-shortening story. On the retained r2 surface, principle-only stays clearly positive where compression-only weakens or fails. This does not prove that compression is never useful; it shows that the present gains are not adequately explained by prompt shortening alone.
+
+\subsection{How to Read Unstable, Sign-Flip, and Non-Effective Regions}
+
+These regions are not embarrassing leftovers. They are part of the contribution because they define where reuse becomes unsafe, unsupported, or too weak to generalize under the current evidence state. In this paper, unstable is primarily a comparison-side label, while sign-flip and non-effective are boundary-honesty labels. Keeping those roles distinct is part of the manuscript's scientific honesty.
+
+\subsection{Series Position}
+
+Integrated paper7 is the pattern-comparison and boundary-honesty layer upstream of Energy. It is not itself the calibration paper, and it is not the downstream closure paper. Its job is to make the upstream pattern read clean enough that later calibration and closure work do not inherit an internally blurred comparison story.
+
+\section{Limitations}
+\label{sec:limitations}
+
+This manuscript cites traceable comparison and Stage B values directly from packaged claim-trace artifacts, and the manuscript-facing naming freeze is recorded in the integrated manifests. The comparison headline has one package-level summary artifact for inspection while preserving the upstream run-specific members for drill-down. Provider sensitivity remains real and must not be hidden by a single aggregate summary. Ordered composition is intentionally demoted out of the default mainline, and no-position ablation remains package-first rather than main-text essential. These are scope controls rather than unfinished claim-layer work.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Integrated paper7 supports a condition-bounded pattern map over five delayed-commitment patterns under fixed paired comparison. On the rerun-backed comparison spine, Hierarchical is strongest, Delta/Lazy/Conditional remain positive, and Branch becomes unstable once robustness is taken seriously. A compact compression control shows that these gains are not reducible to generic prompt shortening alone. Selected Stage B carry-forward then makes that map honest by showing that Conditional remains the cleanest positive boundary-facing pattern, while Lazy degrades and several other patterns contain provider-sensitive reversal cells. The supported output is therefore not a universal ranking, but a comparison-led map with explicit positive, unstable, sign-flip, and non-effective regions.
+
+\section{Reproducibility and Appendix Home}
+\label{sec:repro}
+
+The integrated manuscript package has a concrete reproducibility home. The package-level naming freeze is recorded in \path{repro/paper7_integrated_package_map_v2_2026-03-29.md}, while the manifest checksum anchor is \path{repro/paper7_integrated_repro_checksums_sha256.txt}. The main comparison claim-trace members are:
+\begin{itemize}
+  \item \path{results/analysis/paper7_integrated_comparison_headline_summary_v1_2026-03-29.csv}
+  \item \path{results/paper7_results_allproviders_clean.zip::results/analysis/paper7_allproviders_pattern_summary_robust_t00.csv}
+  \item \path{results/paper7_results_stage1_t00_rep2.zip::results/analysis/paper7_allproviders_pattern_summary_robust_t00.csv}
+  \item \path{results/paper7_results_stage2_t03.zip::results/analysis/paper7_allproviders_pattern_summary_robust_t03.csv}
+  \item \path{results/analysis/paper7_comparison_summary_r2_aggregated.csv}
+\end{itemize}
+
+The carried-forward boundary-honesty claim-trace members are:
+\begin{itemize}
+  \item \path{nrr-boundary/stats/stageb_all/mst_provider_balanced.csv}
+  \item \path{nrr-boundary/stats/stageb_all/mst_provider_separated.csv}
+  \item \path{nrr-boundary/stats/stageb_all/mst_sign_flip_boundaries.csv}
+  \item \path{nrr-boundary/stats/stageb_all/stageb_confirmatory_tests_holm30.csv}
+\end{itemize}
+
+Appendix/package-first surfaces include the no-position ablation
+(\path{results/paper7_no_position_t00.zip}, \path{results/analysis/paper7_no_position_summary.csv})
+and an ordered-combination follow-up surface retained outside the main-text claim hierarchy. These package-first surfaces are named here explicitly for traceability rather than promoted into the integrated mainline.
+
+The integrated manuscript checksum manifest is
+\path{manuscript/current/paper7_integrated_checksums_sha256.txt}. Together, the
+package map, the two claims manifests, the integrated comparison headline
+summary, and the two checksum files define the current integrated manuscript
+package surface for paper7.
+
+\section*{Acknowledgments}
+The author acknowledges language refinement and drafting support from Claude
+(Anthropic), ChatGPT/Codex (OpenAI), and Gemini (Google). All claims and
+decisions in this manuscript remain the sole responsibility of the author.
+
+\begin{thebibliography}{99}
+
+\bibitem{saito2025nrr}
+Saito, K. (2025).
+\textit{NRR-Core: Non-Resolution Reasoning as a Computational Framework for Contextual Identity and Ambiguity Preservation}.
+arXiv:2512.13478.
+
+\bibitem{saito2026phi}
+Saito, K. (2026).
+\textit{NRR-Phi: Text-to-State Mapping for Ambiguity Preservation in LLM Inference}.
+arXiv:2601.19933.
+
+\bibitem{saito2026ime}
+Saito, K. (2026).
+\textit{NRR-IME: Interface Decomposition for Stable State Transitions on Stateless LLM APIs}.
+Repository preprint snapshot. \url{https://github.com/kei-saito-research/nrr-ime} (accessed 2026-03-05).
+
+\bibitem{saito2026transfer}
+Saito, K. (2026).
+\textit{NRR-Transfer: Cross-Domain Transfer of Phase 1.5 Operators Under Fixed Interface Constraints}.
+Repository preprint snapshot. \url{https://github.com/kei-saito-research/nrr-transfer} (accessed 2026-03-05).
+
+\bibitem{saito2026coupled}
+K.~Saito,
+\newblock ``NRR-Coupled (cp): Dependency-Consistency Evaluation for Coupled State Updates,''
+\newblock Manuscript in preparation, 2026.
+
+\bibitem{xu2023recomp}
+F.~Xu, W.~Shi, and E.~Choi (2023).
+\textit{RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation}.
+arXiv:2310.04408.
+
+\bibitem{chevalier2023compress}
+A.~Chevalier et al. (2023).
+\textit{Adapting Language Models to Compress Contexts}.
+arXiv:2305.14788.
+
+\bibitem{liang2022helm}
+P.~Liang et al.,
+\newblock ``Holistic Evaluation of Language Models,''
+\newblock \emph{Transactions on Machine Learning Research}, 2023.
+
+\bibitem{zheng2023mtbench}
+L.~Zheng et al.,
+\newblock ``Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,''
+\newblock \emph{NeurIPS Datasets and Benchmarks}, 2023.
+
+\bibitem{dubois2024alpacaeval}
+Y.~Dubois et al.,
+\newblock ``AlpacaEval 2.0: Evaluating Language Models as Distributional Samplers,''
+\newblock \emph{arXiv preprint arXiv:2404.04475}, 2024.
+
+\bibitem{kojima2022zeroshot}
+T.~Kojima et al.,
+\newblock ``Large Language Models are Zero-Shot Reasoners,''
+\newblock \emph{NeurIPS}, 2022.
+
+\bibitem{wang2023selfconsistency}
+X.~Wang et al.,
+\newblock ``Self-Consistency Improves Chain of Thought Reasoning in Language Models,''
+\newblock \emph{ICLR}, 2023.
+
+\bibitem{zhao2021calibrate}
+Z.~Zhao et al.,
+\newblock ``Calibrate Before Use: Improving Few-Shot Performance of Language Models,''
+\newblock \emph{ICML}, 2021.
+
+\end{thebibliography}
+
+\end{document}

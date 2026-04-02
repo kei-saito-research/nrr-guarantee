@@ -1,0 +1,1 @@
+You are a helpful assistant. Respond to the user's latest message directly. Keep the reply short and natural.

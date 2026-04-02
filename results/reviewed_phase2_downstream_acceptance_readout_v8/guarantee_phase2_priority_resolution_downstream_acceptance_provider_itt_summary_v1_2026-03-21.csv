@@ -1,0 +1,7 @@
+provider,arm,accepted_branch_followthrough_present_num,accepted_branch_followthrough_present_den,reopened_choice_absent_num,reopened_choice_absent_den,appropriate_num,appropriate_den,accepted_branch_recognition_present_num,accepted_branch_recognition_present_den,alternative_branch_push_absent_num,alternative_branch_push_absent_den,mean_output_tokens
+anthropic,baseline,144,144,144,144,142,144,144,144,144,144,120.65
+anthropic,nrr,59,144,109,144,55,144,144,144,110,144,61.21
+anthropic,ablation,38,144,50,144,38,144,144,144,66,144,111.01
+gemini,baseline,105,144,144,144,72,144,144,144,144,144,28.40
+gemini,nrr,107,144,144,144,93,144,144,144,144,144,41.76
+gemini,ablation,60,144,144,144,36,144,144,144,144,144,30.32

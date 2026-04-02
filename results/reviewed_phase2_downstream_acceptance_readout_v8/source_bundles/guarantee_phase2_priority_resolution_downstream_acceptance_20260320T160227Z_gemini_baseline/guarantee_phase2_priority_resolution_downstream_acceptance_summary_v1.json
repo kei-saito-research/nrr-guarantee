@@ -1,0 +1,44 @@
+{
+  "run_label": "guarantee_phase2_priority_resolution_downstream_acceptance_probe_v1",
+  "arm_label": "baseline",
+  "generated_at_utc": "2026-03-20T16:02:28Z",
+  "input_csv": "results/analysis/guarantee_phase2_priority_resolution_downstream_acceptance_run_input_gemini_candidate_v1_2026-03-20.csv",
+  "n_rows": 144,
+  "system_prompt_source": "configs/priority_resolution/priority_resolution_baseline_arm_system_prompt_v1.txt",
+  "system_prompt_sha256": "222618a2da771aba80844aab58d23864fdf734651178e87296d1aa3ba7d53942",
+  "templates": [
+    "A_trip_planning",
+    "B_hiring_packet",
+    "C_incident_response",
+    "D_product_launch",
+    "E_vendor_shortlist",
+    "F_course_schedule"
+  ],
+  "acceptance_variants": [
+    "accept_main_first",
+    "accept_side_first"
+  ],
+  "accepted_branch_labels": [
+    "main_objective",
+    "side_topic"
+  ],
+  "step2_action_classes": [
+    "explicit_choice_question",
+    "revisable_recommendation"
+  ],
+  "accepted_branch_alignment_classes": [
+    "same_as_recommendation",
+    "user_selected_after_choice_question"
+  ],
+  "providers": [
+    "gemini"
+  ],
+  "models": [
+    "gemini-2.0-flash"
+  ],
+  "temperatures": [
+    "0.0"
+  ],
+  "response_csv": "results/guarantee_phase2_priority_resolution_downstream_acceptance_20260320T160227Z_gemini_baseline/guarantee_phase2_priority_resolution_downstream_acceptance_responses_v1.csv",
+  "raw_jsonl": "results/guarantee_phase2_priority_resolution_downstream_acceptance_20260320T160227Z_gemini_baseline/guarantee_phase2_priority_resolution_downstream_acceptance_raw_v1.jsonl"
+}
