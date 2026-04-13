@@ -78,8 +78,8 @@ artifacts cited by the current `NRR-Guarantee` manuscript and
 
 ## Energy note
 
-- `energy_to_policy_handoff_memo_v1_2026-03-18.md` was frozen when the Energy
-  manuscript package was at `v8`
+- the frozen Energy-to-policy transition note in this bundle was copied when the
+  Energy manuscript package was at `v8`
 - the current closed Energy manuscript is now `v26`
 - copies of the current `NRR-Patterns v0_29` and current Energy
   `v26` reference artifacts are now also shipped locally

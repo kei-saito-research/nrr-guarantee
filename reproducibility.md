@@ -8,7 +8,7 @@ This repository bundles the current `Guarantee` manuscript package under the fix
 
 - Build the current manuscript to temp output:
   - `bash scripts/build_current_manuscript.sh`
-  - default output: the highest-numbered tracked manuscript in `manuscript/current/`; at present this is `/tmp/nrr-guarantee_current_build/nrr-guarantee_manuscript_v59.pdf`
+  - default output: the highest-numbered tracked manuscript in `manuscript/current/`; at present this is `/tmp/nrr-guarantee_current_build/nrr-guarantee_manuscript_v60.pdf`
 - Verify the current manuscript surface:
   - `bash scripts/verify_active_review_surface.sh`
   - this checks `manuscript/checksums_active_review_surface_sha256.txt`
@@ -19,8 +19,8 @@ This repository bundles the current `Guarantee` manuscript package under the fix
 
 ## Current package surface
 
-- Current manuscript TeX: `manuscript/current/nrr-guarantee_manuscript_v59.tex`
-- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v59.pdf`
+- Current manuscript TeX: `manuscript/current/nrr-guarantee_manuscript_v60.tex`
+- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v60.pdf`
 - Current figure assets:
   - `manuscript/figures/fig1_supported_claim_progression_v1.png`
   - `manuscript/figures/fig2_guarantee_centered_architecture_v1.png`
@@ -63,8 +63,7 @@ Current drafting is constrained by the following fixed support layers:
   - `supporting_layer_sources/current/energy_guarantee_claim_schema_candidate_v2_2026-03-17.md`
 - current dynamics mechanism vocabulary:
   - `supporting_layer_sources/current/energy_dynamics_mechanism_skeleton_candidate_v2_2026-03-17.md`
-- current support-layer boundary trace:
-  - `supporting_layer_sources/current/energy_to_policy_handoff_memo_v1_2026-03-18.md`
+- current support-layer transition note in `supporting_layer_sources/current/`
 - direct downstream comparison materials and run-annotation CSVs:
   - `supporting_layer_sources/current/energy_policy_verification_downstream_boundary_baseline_vs_energy_policy_comparison_memo_v1_2026-03-17.md`
   - `supporting_layer_sources/current/energy_policy_verification_priority_resolution_baseline_vs_energy_policy_comparison_memo_v1_2026-03-17.md`
@@ -73,9 +72,9 @@ Current drafting is constrained by the following fixed support layers:
 
 | Artifact | Command | Output |
 |---|---|---|
-| Current manuscript build | `bash scripts/build_current_manuscript.sh` | highest-numbered tracked manuscript PDF in `/tmp/nrr-guarantee_current_build/` (currently `nrr-guarantee_manuscript_v59.pdf`) |
+| Current manuscript build | `bash scripts/build_current_manuscript.sh` | highest-numbered tracked manuscript PDF in `/tmp/nrr-guarantee_current_build/` (currently `nrr-guarantee_manuscript_v60.pdf`) |
 | Current figure regeneration | `python3 scripts/generate_manuscript_figures.py` | `manuscript/figures/fig1_supported_claim_progression_v1.png`, `manuscript/figures/fig2_guarantee_centered_architecture_v1.png` |
-| Current manuscript source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v59.tex` |
+| Current manuscript source snapshot | N/A (tracked artifact) | `manuscript/current/nrr-guarantee_manuscript_v60.tex` |
 | Current supporting-layer source bundle | N/A (tracked artifact) | `supporting_layer_sources/current/` |
 | Bundled downstream-acceptance readout directory | N/A (tracked artifact) | `results/reviewed_phase2_downstream_acceptance_readout_v8/` |
 

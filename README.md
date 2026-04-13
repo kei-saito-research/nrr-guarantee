@@ -15,8 +15,8 @@ For the cross-paper map and current series links, start here:
 
 ## Current manuscript snapshot
 
-- Current manuscript source: `manuscript/current/nrr-guarantee_manuscript_v59.tex`
-- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v59.pdf`
+- Current manuscript source: `manuscript/current/nrr-guarantee_manuscript_v60.tex`
+- Current manuscript PDF: `manuscript/current/nrr-guarantee_manuscript_v60.pdf`
 - Current checksum manifest:
   `manuscript/checksums_active_review_surface_sha256.txt`
 
@@ -43,9 +43,9 @@ The current package surface is defined by
 `manuscript/checksums_active_review_surface_sha256.txt`.
 
 - Current manuscript snapshot:
-  - `manuscript/current/nrr-guarantee_manuscript_v59.tex`
+  - `manuscript/current/nrr-guarantee_manuscript_v60.tex`
 - Current manuscript PDF:
-  - `manuscript/current/nrr-guarantee_manuscript_v59.pdf`
+  - `manuscript/current/nrr-guarantee_manuscript_v60.pdf`
 - Current figure assets:
   - `manuscript/figures/fig1_supported_claim_progression_v1.png`
   - `manuscript/figures/fig2_guarantee_centered_architecture_v1.png`
@@ -137,8 +137,8 @@ nrr-guarantee/
 |-- reproducibility.md
 |-- manuscript/
 |   |-- current/
-|   |   |-- nrr-guarantee_manuscript_v59.tex
-|   |   `-- nrr-guarantee_manuscript_v59.pdf
+|   |   |-- nrr-guarantee_manuscript_v60.tex
+|   |   `-- nrr-guarantee_manuscript_v60.pdf
 |   |-- figures/
 |   |   |-- fig1_supported_claim_progression_v1.png
 |   |   `-- fig2_guarantee_centered_architecture_v1.png
