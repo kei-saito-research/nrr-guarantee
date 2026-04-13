@@ -1,0 +1,352 @@
+{
+  "scoring_csv": "/Users/saitokei/Documents/New project/series_planning/prospective_killer_pilot_en_bridge_a2_mode_repair_full_scoring_v1_2026-04-05.csv",
+  "overall_summary": {
+    "n_runs": 324,
+    "premature_commit_rate": 0.35185185185185186,
+    "a1_appropriateness_pass_rate": 0.6296296296296297,
+    "final_success_rate": 0.904320987654321,
+    "a2_in_envelope_rate": 0.9104938271604939,
+    "clarification_helpfulness_pass_rate": 0.9534883720930233,
+    "mean_rework_burden": 0.8919753086419753,
+    "mean_tokens_total": 93.35493827160494,
+    "problematic_runs": 31,
+    "acceptable_runs": 115,
+    "good_runs": 178
+  },
+  "arm_summary": {
+    "always_defer": {
+      "n_runs": 108,
+      "premature_commit_rate": 0.48148148148148145,
+      "a1_appropriateness_pass_rate": 0.5185185185185185,
+      "final_success_rate": 0.9444444444444444,
+      "a2_in_envelope_rate": 0.9629629629629629,
+      "clarification_helpfulness_pass_rate": 1.0,
+      "mean_rework_burden": 1.1111111111111112,
+      "mean_tokens_total": 110.32407407407408,
+      "problematic_runs": 6,
+      "acceptable_runs": 48,
+      "good_runs": 54
+    },
+    "baseline": {
+      "n_runs": 108,
+      "premature_commit_rate": 0.5740740740740741,
+      "a1_appropriateness_pass_rate": 0.42592592592592593,
+      "final_success_rate": 1.0,
+      "a2_in_envelope_rate": 1.0,
+      "clarification_helpfulness_pass_rate": 1.0,
+      "mean_rework_burden": 0.9814814814814815,
+      "mean_tokens_total": 113.99074074074075,
+      "problematic_runs": 0,
+      "acceptable_runs": 62,
+      "good_runs": 46
+    },
+    "nrr": {
+      "n_runs": 108,
+      "premature_commit_rate": 0.0,
+      "a1_appropriateness_pass_rate": 0.9444444444444444,
+      "final_success_rate": 0.7685185185185185,
+      "a2_in_envelope_rate": 0.7685185185185185,
+      "clarification_helpfulness_pass_rate": 0.9444444444444444,
+      "mean_rework_burden": 0.5833333333333334,
+      "mean_tokens_total": 55.75,
+      "problematic_runs": 25,
+      "acceptable_runs": 5,
+      "good_runs": 78
+    }
+  },
+  "provider_summary": {
+    "anthropic": {
+      "n_runs": 162,
+      "premature_commit_rate": 0.30864197530864196,
+      "a1_appropriateness_pass_rate": 0.6790123456790124,
+      "final_success_rate": 0.9382716049382716,
+      "a2_in_envelope_rate": 0.9382716049382716,
+      "clarification_helpfulness_pass_rate": 0.9705882352941176,
+      "mean_rework_burden": 0.7283950617283951,
+      "mean_tokens_total": 120.82098765432099,
+      "problematic_runs": 10,
+      "acceptable_runs": 52,
+      "good_runs": 100
+    },
+    "gemini": {
+      "n_runs": 162,
+      "premature_commit_rate": 0.3950617283950617,
+      "a1_appropriateness_pass_rate": 0.5802469135802469,
+      "final_success_rate": 0.8703703703703703,
+      "a2_in_envelope_rate": 0.8827160493827161,
+      "clarification_helpfulness_pass_rate": 0.9344262295081968,
+      "mean_rework_burden": 1.0555555555555556,
+      "mean_tokens_total": 65.88888888888889,
+      "problematic_runs": 21,
+      "acceptable_runs": 63,
+      "good_runs": 78
+    }
+  },
+  "family_summary": {
+    "downstream_acceptance": {
+      "n_runs": 108,
+      "premature_commit_rate": 0.4074074074074074,
+      "a1_appropriateness_pass_rate": 0.5833333333333334,
+      "final_success_rate": 0.9351851851851852,
+      "a2_in_envelope_rate": 0.9537037037037037,
+      "clarification_helpfulness_pass_rate": 0.9722222222222222,
+      "mean_rework_burden": 0.6111111111111112,
+      "mean_tokens_total": 95.70370370370371,
+      "problematic_runs": 7,
+      "acceptable_runs": 42,
+      "good_runs": 59
+    },
+    "early_ambiguity_turn": {
+      "n_runs": 108,
+      "premature_commit_rate": 0.027777777777777776,
+      "a1_appropriateness_pass_rate": 0.9629629629629629,
+      "final_success_rate": 0.9537037037037037,
+      "a2_in_envelope_rate": 0.9537037037037037,
+      "clarification_helpfulness_pass_rate": 0.9824561403508771,
+      "mean_rework_burden": 0.2037037037037037,
+      "mean_tokens_total": 94.29629629629629,
+      "problematic_runs": 5,
+      "acceptable_runs": 4,
+      "good_runs": 99
+    },
+    "later_followthrough": {
+      "n_runs": 108,
+      "premature_commit_rate": 0.6203703703703703,
+      "a1_appropriateness_pass_rate": 0.3425925925925926,
+      "final_success_rate": 0.8240740740740741,
+      "a2_in_envelope_rate": 0.8240740740740741,
+      "clarification_helpfulness_pass_rate": 0.8888888888888888,
+      "mean_rework_burden": 1.8611111111111112,
+      "mean_tokens_total": 90.06481481481481,
+      "problematic_runs": 19,
+      "acceptable_runs": 69,
+      "good_runs": 20
+    }
+  },
+  "provider_arm_summary": {
+    "anthropic": {
+      "always_defer": {
+        "n_runs": 54,
+        "premature_commit_rate": 0.46296296296296297,
+        "a1_appropriateness_pass_rate": 0.5370370370370371,
+        "final_success_rate": 1.0,
+        "a2_in_envelope_rate": 1.0,
+        "clarification_helpfulness_pass_rate": 1.0,
+        "mean_rework_burden": 1.0,
+        "mean_tokens_total": 140.40740740740742,
+        "problematic_runs": 0,
+        "acceptable_runs": 25,
+        "good_runs": 29
+      },
+      "baseline": {
+        "n_runs": 54,
+        "premature_commit_rate": 0.46296296296296297,
+        "a1_appropriateness_pass_rate": 0.5370370370370371,
+        "final_success_rate": 1.0,
+        "a2_in_envelope_rate": 1.0,
+        "clarification_helpfulness_pass_rate": 1.0,
+        "mean_rework_burden": 0.7407407407407407,
+        "mean_tokens_total": 147.27777777777777,
+        "problematic_runs": 0,
+        "acceptable_runs": 25,
+        "good_runs": 29
+      },
+      "nrr": {
+        "n_runs": 54,
+        "premature_commit_rate": 0.0,
+        "a1_appropriateness_pass_rate": 0.9629629629629629,
+        "final_success_rate": 0.8148148148148148,
+        "a2_in_envelope_rate": 0.8148148148148148,
+        "clarification_helpfulness_pass_rate": 0.9629629629629629,
+        "mean_rework_burden": 0.4444444444444444,
+        "mean_tokens_total": 74.77777777777777,
+        "problematic_runs": 10,
+        "acceptable_runs": 2,
+        "good_runs": 42
+      }
+    },
+    "gemini": {
+      "always_defer": {
+        "n_runs": 54,
+        "premature_commit_rate": 0.5,
+        "a1_appropriateness_pass_rate": 0.5,
+        "final_success_rate": 0.8888888888888888,
+        "a2_in_envelope_rate": 0.9259259259259259,
+        "clarification_helpfulness_pass_rate": 1.0,
+        "mean_rework_burden": 1.2222222222222223,
+        "mean_tokens_total": 80.24074074074075,
+        "problematic_runs": 6,
+        "acceptable_runs": 23,
+        "good_runs": 25
+      },
+      "baseline": {
+        "n_runs": 54,
+        "premature_commit_rate": 0.6851851851851852,
+        "a1_appropriateness_pass_rate": 0.3148148148148148,
+        "final_success_rate": 1.0,
+        "a2_in_envelope_rate": 1.0,
+        "clarification_helpfulness_pass_rate": null,
+        "mean_rework_burden": 1.2222222222222223,
+        "mean_tokens_total": 80.70370370370371,
+        "problematic_runs": 0,
+        "acceptable_runs": 37,
+        "good_runs": 17
+      },
+      "nrr": {
+        "n_runs": 54,
+        "premature_commit_rate": 0.0,
+        "a1_appropriateness_pass_rate": 0.9259259259259259,
+        "final_success_rate": 0.7222222222222222,
+        "a2_in_envelope_rate": 0.7222222222222222,
+        "clarification_helpfulness_pass_rate": 0.9259259259259259,
+        "mean_rework_burden": 0.7222222222222222,
+        "mean_tokens_total": 36.72222222222222,
+        "problematic_runs": 15,
+        "acceptable_runs": 3,
+        "good_runs": 36
+      }
+    }
+  },
+  "family_arm_summary": {
+    "downstream_acceptance": {
+      "always_defer": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.4444444444444444,
+        "a1_appropriateness_pass_rate": 0.5555555555555556,
+        "final_success_rate": 0.9444444444444444,
+        "a2_in_envelope_rate": 1.0,
+        "clarification_helpfulness_pass_rate": null,
+        "mean_rework_burden": 0.6388888888888888,
+        "mean_tokens_total": 108.25,
+        "problematic_runs": 2,
+        "acceptable_runs": 14,
+        "good_runs": 20
+      },
+      "baseline": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.7777777777777778,
+        "a1_appropriateness_pass_rate": 0.2222222222222222,
+        "final_success_rate": 1.0,
+        "a2_in_envelope_rate": 1.0,
+        "clarification_helpfulness_pass_rate": null,
+        "mean_rework_burden": 0.8888888888888888,
+        "mean_tokens_total": 121.97222222222223,
+        "problematic_runs": 0,
+        "acceptable_runs": 28,
+        "good_runs": 8
+      },
+      "nrr": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.0,
+        "a1_appropriateness_pass_rate": 0.9722222222222222,
+        "final_success_rate": 0.8611111111111112,
+        "a2_in_envelope_rate": 0.8611111111111112,
+        "clarification_helpfulness_pass_rate": 0.9722222222222222,
+        "mean_rework_burden": 0.3055555555555556,
+        "mean_tokens_total": 56.888888888888886,
+        "problematic_runs": 5,
+        "acceptable_runs": 0,
+        "good_runs": 31
+      }
+    },
+    "early_ambiguity_turn": {
+      "always_defer": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.027777777777777776,
+        "a1_appropriateness_pass_rate": 0.9722222222222222,
+        "final_success_rate": 0.9722222222222222,
+        "a2_in_envelope_rate": 0.9722222222222222,
+        "clarification_helpfulness_pass_rate": 1.0,
+        "mean_rework_burden": 0.1388888888888889,
+        "mean_tokens_total": 115.27777777777777,
+        "problematic_runs": 1,
+        "acceptable_runs": 1,
+        "good_runs": 34
+      },
+      "baseline": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.05555555555555555,
+        "a1_appropriateness_pass_rate": 0.9444444444444444,
+        "final_success_rate": 1.0,
+        "a2_in_envelope_rate": 1.0,
+        "clarification_helpfulness_pass_rate": 1.0,
+        "mean_rework_burden": 0.1388888888888889,
+        "mean_tokens_total": 109.44444444444444,
+        "problematic_runs": 0,
+        "acceptable_runs": 2,
+        "good_runs": 34
+      },
+      "nrr": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.0,
+        "a1_appropriateness_pass_rate": 0.9722222222222222,
+        "final_success_rate": 0.8888888888888888,
+        "a2_in_envelope_rate": 0.8888888888888888,
+        "clarification_helpfulness_pass_rate": 0.9722222222222222,
+        "mean_rework_burden": 0.3333333333333333,
+        "mean_tokens_total": 58.166666666666664,
+        "problematic_runs": 4,
+        "acceptable_runs": 1,
+        "good_runs": 31
+      }
+    },
+    "later_followthrough": {
+      "always_defer": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.9722222222222222,
+        "a1_appropriateness_pass_rate": 0.027777777777777776,
+        "final_success_rate": 0.9166666666666666,
+        "a2_in_envelope_rate": 0.9166666666666666,
+        "clarification_helpfulness_pass_rate": null,
+        "mean_rework_burden": 2.5555555555555554,
+        "mean_tokens_total": 107.44444444444444,
+        "problematic_runs": 3,
+        "acceptable_runs": 33,
+        "good_runs": 0
+      },
+      "baseline": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.8888888888888888,
+        "a1_appropriateness_pass_rate": 0.1111111111111111,
+        "final_success_rate": 1.0,
+        "a2_in_envelope_rate": 1.0,
+        "clarification_helpfulness_pass_rate": null,
+        "mean_rework_burden": 1.9166666666666667,
+        "mean_tokens_total": 110.55555555555556,
+        "problematic_runs": 0,
+        "acceptable_runs": 32,
+        "good_runs": 4
+      },
+      "nrr": {
+        "n_runs": 36,
+        "premature_commit_rate": 0.0,
+        "a1_appropriateness_pass_rate": 0.8888888888888888,
+        "final_success_rate": 0.5555555555555556,
+        "a2_in_envelope_rate": 0.5555555555555556,
+        "clarification_helpfulness_pass_rate": 0.8888888888888888,
+        "mean_rework_burden": 1.1111111111111112,
+        "mean_tokens_total": 52.19444444444444,
+        "problematic_runs": 16,
+        "acceptable_runs": 4,
+        "good_runs": 16
+      }
+    }
+  },
+  "primary_findings": [
+    "DA recovery is the main repaired-surface gain: the old downstream-acceptance A2 collapse is no longer family-wide on the repaired full run.",
+    "EA remains strong on the repaired full run and does not show repair-induced transfer loss.",
+    "LF improves only partially: the family still carries the explicit LF_002 / gemini / nrr A1 residual and remains the main remaining NRR bottleneck."
+  ],
+  "best_overall_arm_by_final_success_then_efficiency": "baseline",
+  "current_main_bottleneck_family": "later_followthrough",
+  "next_recommended_action": "Write the repaired full-run readout, keep LF_002 attached as a known residual, and only then judge whether any rebuild comparison is still needed.",
+  "residual_risks": [
+    "LF_002 / gemini / nrr remains the carried-over A1 miss and stays inside the scored aggregate.",
+    "Later-followthrough still contains the largest remaining repaired-surface fragility, so the repaired line is improved but not uniformly clean."
+  ],
+  "current_final_closure_bottleneck_family": "later_followthrough",
+  "current_rework_bottleneck_family": "later_followthrough",
+  "scoring_mode": "assistant_side_row_level_envelope_read_v1",
+  "scoring_note": "This read uses assistant_side_row_level_envelope_read_v1 on the repaired full bridge-current run. The scorer is the same assistant-side rubric judge used on the prior full current-line read, so comparisons are directionally meaningful for the repaired-vs-unrepaired runtime surfaces.",
+  "responses_source": "/Users/saitokei/Documents/New project/tmp/prospective_killer_pilot_en_bridge_a2_mode_repair_full_run_001/prospective_killer_smoke_responses_v1.csv"
+}

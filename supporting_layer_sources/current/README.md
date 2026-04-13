@@ -6,15 +6,15 @@ artifacts cited by the current `NRR-Guarantee` manuscript and
 
 ## Purpose
 
-- keep the current Guarantee package externally reviewable without requiring the
-  reviewer to resolve workspace-only paths outside this repository
+- keep the current Guarantee package inspectable without requiring the
+  reader to resolve workspace-only paths outside this repository
 - preserve the exact source-layer texts that the current manuscript imports into
   its bounded claim surface
 - include the direct early-claim comparison memo and run-annotation CSVs needed
   to inspect the first claim one level below the external-review memo
 - include the direct downstream-boundary baseline-vs-Energy comparison memo and
   run-annotation CSVs needed to inspect the downstream boundary's decisive
-  mainline figures inside the bundle itself
+  figures inside the bundle itself
 - include the repaired side-topic baseline-vs-revised comparison memo and
   repaired input artifacts and run-annotation CSVs needed to inspect the
   side-topic supporting surface one level below the manuscript-facing memo
@@ -24,8 +24,8 @@ artifacts cited by the current `NRR-Guarantee` manuscript and
 - include the later-horizon two-provider read memo together with provider-scored
   memos and run-annotation CSVs needed to inspect the failure boundary one
   layer below the summary memo
-- include review copies of the current manuscript-facing upstream authority
-  artifacts for integrated `paper7 v0_29` and `Energy v26`
+- include copies of the current manuscript-facing upstream reference
+  artifacts for `NRR-Patterns v0_29` and `Energy v26`
 
 ## Provenance
 
@@ -40,7 +40,7 @@ artifacts cited by the current `NRR-Guarantee` manuscript and
 - downstream-boundary baseline-vs-Energy comparison artifacts were additionally
   copied from `nrr-energy/results/analysis/` and the related Energy review-pack
   surface on 2026-03-30 JST so the shipped surface contains the direct
-  downstream-boundary mainline comparison memo and its run-annotation CSVs
+  downstream-boundary comparison memo and its run-annotation CSVs
 - repaired side-topic comparison artifacts were additionally copied from
   `nrr-energy/results/analysis/` on 2026-03-30 JST so the shipped surface
   contains the direct side-topic comparison memo, its input-repair memo, its
@@ -54,17 +54,17 @@ artifacts cited by the current `NRR-Guarantee` manuscript and
   `nrr-energy/results/analysis/` on 2026-03-30 JST so the shipped surface
   contains the two-provider memo, the provider-scored memos, the artifact-
   repair memo, and the active run-annotation CSVs
-- current upstream authority copies for integrated `paper7 v0_29` and
+- current upstream reference copies for `NRR-Patterns v0_29` and
   `Energy v26` were additionally copied on 2026-04-02 JST so the shipped
   surface can audit the live spine directly rather than by note-only assertion
-- for the bundled `paper5-nrr-transfer-v123.tex` authority snapshot, this
+- for the bundled `paper5-nrr-transfer-v123.tex` reference snapshot, this
   package now treats the hidden-state-interface-reuse tree at commit
   `24bd24ea183f282cf535205ca4447e8169bac3b0` as the canonical repo identity;
-  the older `nrr-transfer` tree label preserved inside the bundled `paper7`
+  the older `nrr-transfer` tree label preserved inside the bundled upstream
   review copy remains historical provenance only
-- a sidecar reviewer note now sits next to the bundled `paper7` review copy:
+- a sidecar reviewer note now sits next to the bundled upstream review copy:
   - `paper7_integrated_manuscript_v0_29_transfer_repo_identity_note_v1_2026-04-02.md`
-  - use it when reading the bundled `paper7` copy directly so the preserved old
+  - use it when reading the bundled upstream copy directly so the preserved old
     label is not mistaken for the current package-level canonical identity
 
 ## Portability Normalization
@@ -76,17 +76,18 @@ artifacts cited by the current `NRR-Guarantee` manuscript and
   its target is preserved as provenance-only filename text rather than as a
   broken markdown link
 
-## Energy handoff note
+## Energy note
 
 - `energy_to_policy_handoff_memo_v1_2026-03-18.md` was frozen when the Energy
   manuscript package was at `v8`
 - the current closed Energy manuscript is now `v26`
-- review copies of the current integrated `paper7 v0_29` and current Energy
-  `v26` authority artifacts are now also shipped locally
-- the bundled `v8` handoff snapshot remains historical provenance only
-- older review copies of `paper7 v0_3` and `Energy v11` remain historical
+- copies of the current `NRR-Patterns v0_29` and current Energy
+  `v26` reference artifacts are now also shipped locally
+- the bundled `v8` transition snapshot remains historical provenance only
+- older upstream review copies corresponding to the earlier integrated release
+  and `Energy v11` remain historical
   provenance only if present locally
 - the current manuscript-facing spine is not the older local sequence preserved
-  in the frozen handoff texts; it is `paper7 -> Energy -> Guarantee`
+  in the frozen transition texts; it is `NRR-Patterns -> Energy -> Guarantee`
 - those later manuscript-facing upstream changes do not alter the downstream
   support-layer boundaries imported into the current Guarantee manuscript
